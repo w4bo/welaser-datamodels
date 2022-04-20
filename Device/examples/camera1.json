@@ -1,0 +1,6 @@
+{
+    "id": "camera1",
+    "type": "Device",
+    "controlledProperty": [ "image" ]
+    "value": [ ... ], // encoded64 byte
+}

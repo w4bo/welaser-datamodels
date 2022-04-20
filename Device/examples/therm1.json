@@ -1,0 +1,6 @@
+{
+    "id": "therm1",
+    "type": "Device",
+    "controlledProperty": [ "temperature" ]
+    "value": [ ... ], // Number
+}

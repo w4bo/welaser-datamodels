@@ -1,0 +1,27 @@
+{
+    // static / planned
+    "dateCreated":             unixtimestamp, // e.g., representing "2022/04/13-08.40.00"
+    "id":                      "goto1",
+    "type":                    "Task",
+    "goal":                    "foobar", // textual description
+    "taskType":                "Action", // enum(Mission, Operation, Action)
+    "name":                    "FollowRow", // this free text, but we keep it as enum(FollowRow, ...) 
+
+    "hasAgriRobot":            "carob-123",
+    "hasWorkingArea":          "agriparcel-123",
+    "workingAreaType":         "AgriParcel",
+    "plannedBeginTime":        unixtimestamp, // e.g., representing "2022/04/13-10.40.00"
+    "plannedEndTime":          unixtimestamp, // e.g., representing "2022/04/13-10.50.00"
+    "plannedLocation":         GEOJSON,
+    "plannedSpeed":            0.55 , // desired maximum speed in m/s
+    "hasPlannedTaskChildren":  [],
+    
+    // dynamic / executed
+    "hasExecutedTaskChildren": [], // update when the lower-level task finished
+    "actualBeginTime":      unixtimestamp, // e.g., representing "2022/04/12-10.52",
+    "actualEndTime":        unixtimestamp, // e.g., representing "2022/04/12-10.57",
+    "actualLocation":       GEOJSON,
+    "status":               "finished", // this is taken from the agriparcel (planned, ongoing, finished, scheduled, cancelled, SKIPPED)
+    "result":               "ok",       // this is taken from the agriparcel
+    "event":                "",         // textual description enum(BATTERY_LOW, RAINING)
+}
