@@ -1,0 +1,57 @@
+{
+  "id": "urn:ngsi-ld:AgriParcel:7833f398-13af-4419-a548-d99f959bed85",
+  "type": "AgriParcel",
+  "dateCreated": "2022-03-11T15:25:24Z",
+  "dateModified": "2022-03-11T15:25:24Z",
+  "location": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        40.31259018650452,
+        -3.4805846214294296
+      ],
+      [
+        40.3125014735276,
+        -3.480457551777363
+      ],
+      [
+        40.312615752182325,
+        -3.4803445637225967
+      ],
+      [
+        40.31269909622465,
+        -3.480465933680521
+      ],
+      [
+        40.31259018650452,
+        -3.4805846214294296
+      ]
+    ]
+  },
+  "area": 1428.98,
+  "description": "wheat",
+  "category": "Arable",
+  "relatedSource": [
+    {
+      "application": "",
+      "applicationEntityId": ""
+    }
+  ],
+  "seeAlso": [
+    "https://example.org/concept/agriparcel",
+    "https://datamodel.org/example/agriparcel"
+  ],
+  "belongsTo": "urn:ngsi-ld:AgriFarm:2e5e21c5-362a-4648-be7a-3c2add747002",
+  "ownedBy": "",
+  "hasAgriParcelParent": "",
+  "hasAgriParcelChildren": [
+    "urn:ngsi-ld:AgriParcel:d975b479-cb74-4248-bb10-f293d6d09606",
+    "urn:ngsi-ld:AgriParcel:097bc719-dc35-4f32-9919-f2a0fc2e0193",
+    "urn:ngsi-ld:AgriParcel:e988119a-651f-489e-beee-8a089e3d5388"
+  ],
+  "hasAgriCrop": "",
+  "cropStatus": "seeded",
+  "lastPlantedAt": "2016-08-23T10:18:16Z",
+  "hasAgriSoil": "",
+  "hasDevice": []
+}
