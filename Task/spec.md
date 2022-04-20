@@ -29,4 +29,4 @@ Global description: **This entity contains a harmonised description of a generic
 - `actualEndLocation`: The actual location of the task, a valid GEOJSON
 - `status`: The status of the task, enum: (planned, ongoing, finished, scheduled, cancelled, SKIPPED)
 - `result`: The result of the task, enum: **TBD** 
-- `event`: List of the events recorded during the task, enum: (BATTERY_LOW, RAINING, **TBD** )
+- `event`: List of the events recorded during the task, enum: (BATTERY_LOW, RAINING, **TBD**)
