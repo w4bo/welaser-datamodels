@@ -26,23 +26,14 @@ Python demo
 - Write to mongodb
 - Demonstrate update FIWARE entity
 
-Orion context broker
-
-## Questions
+## Open questions
 
 - Should we keep some statistics on the weeds?
-- GA: we could have coverage maps, to map the planning. We are not doing that. Bur we can infer coverage maps from the robot / perception system.
-- Do we need to model the table of conditions? Not for now
-- Width of the crop (line)
-- Width of the robot
+    - GA: we could have coverage maps, to map the planning. We are not doing that. Bur we can infer coverage maps from the robot / perception system.
+    - Do we need to model the table of conditions? Not for now
 
-Storage limits?
-- Terabytes
-- Images
-
-What information do we send back
-
-[Not critical] Map creation: Draw the polygons / linestring
+- What information do we send back
+- [Not critical] Map creation: Draw the polygons / linestring
 
 ## Entities
 
@@ -55,7 +46,6 @@ For now we assume that the user that is logged is close to the robot (something 
 
 Access control
 - Farmer (control all the farms): update when he seeds/crop
-- Farm has an owner
 
 ### Agriparcel
 - Orientation
