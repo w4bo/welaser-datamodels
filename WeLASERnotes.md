@@ -89,35 +89,6 @@ Device with highlighy different sensor rates.
 ```json
 
 
-
-
-
-
-{
-    // Static
-    "id":               "carob-123",
-    "type":             "AgriRobot",
-    "hasFarm":          ...,
-    "refRobotModel":    "robotmodel:carob",
-    "category":         [ ... ],
-    "name":             "carob-123",
-    "serviceProvided":  [ "weeding", "seeding" ],
-    "hasImplement":     [ "laser-123" ]
-    "hasDevice":        [ "camera1", "camera2", "therm1" ]
-
-    // Dynamic
-    "status":           [ "on", "off" ], // one value for each service
-    "hitch":            ..., // number
-    "weight":           ..., // number
-    "location":         ..., // number
-    "speed":            ..., // number
-    "bearing":          ..., // number
-    "heading":          ..., // number
-
-    // commands
-    "cmd":              "startFieldMission", // they value of the cmd should be known to both of us
-}
-
 {
     "id": "camera1",
     "type": "Device",
