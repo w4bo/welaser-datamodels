@@ -1,0 +1,9 @@
+{
+    "id":              "implementmodel:lzhlaser",
+    "type":            "ImplementModel",
+    "PTO":             ...,
+    "auxValve":        [ ... ],
+    "valve":           [ ... ],
+    "actuationType":   "valve"/"heat"/"elec. power",
+    "actuationNumber": ..., 
+}

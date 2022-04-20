@@ -87,46 +87,11 @@ Device with highlighy different sensor rates.
 ### Snippets
 
 ```json
-{
-    "id": "robotmodel:carob",
-    "type": "RobotModel",
-    "name": "Carob v1",
-    "brandName": "AGC",
-    "modelName": "Carob",
-    "robotType": "Mobile robot",
-    "cargoPayload": 850, // kgs
-    "height": 1.5, // meters
-    "width": 1.5, // meters
-    "length": 2, // meters
-    "fuelType": "diesel",
-    "fuelEfficiency": ..., //
-    "wheelsType" : "tracks",
-}
 
-// Using the ISOBUS standard
-{
-    "id":              "implementmodel:lzhlaser",
-    "type":            "ImplementModel",
-    "PTO":             ...,
-    "auxValve":        [ ... ],
-    "valve":           [ ... ],
-    "actuationType":   "valve"/"heat"/"elec. power",
-    "actuationNumber": ..., 
-    ???
-}
 
-{
-    // static
-    "id": "laser-123",
-    "type": "AgriLaser",
-    "refImplementModel": "implementmodel:lzhlaser",
-    "nominalPowerConmsumption": ...,
 
-    // dynamic
-    "powerConsumption": ..., // Watt
-    "voltage": ..., // Volt
-    "current": ..., // Ampere
-}
+
+
 
 {
     // Static
