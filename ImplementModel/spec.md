@@ -13,5 +13,6 @@ Global description: **This entity contains a harmonised description of a generic
 - `PTO`: (**TBD**)
 - `auxValve`: (**TBD**)
 - `valve`: (**TBD**)
-- `actuationNumber`: (**TBD**)
+- `actuationType`: (**TBD**)
+- `actuationNumber`: (**TBD**. e.g. valve, heat, elec. power)
 - `width`: The width of the implement model, in meters
