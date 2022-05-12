@@ -2,7 +2,8 @@
     "id": "therm1",
     "type": "Device",
     "controlledProperty": [
-        "temperature"
+        "temperature",
+        "humidity"
     ],
-    "value": [ 18 ]
+    "value": "t=18;h=30"
 }
