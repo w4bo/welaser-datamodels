@@ -1,0 +1,78 @@
+{
+    "id": "urn:ngsi-ld:AgriFarm:2e5e21c5-362a-4648-be7a-3c2add747002",
+    "type": "AgriFarm",
+    "dateCreated": "2022-03-11T15:24:32Z",
+    "dateModified": "2022-03-11T15:24:32Z",
+    "name": "Wheat farm",
+    "description": "various",
+    "relatedSource": [
+        {
+            "application": "",
+            "applicationEntityId": ""
+        }
+    ],
+    "seeAlso": [
+        "https://example.org/concept/farm",
+        "https://datamodel.org/example/farm"
+    ],
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            40.31284379759984,
+            -3.480977900326251
+        ]
+    },
+    "landLocation": {
+        "type": "Polygon",
+        "coordinates": [
+            [
+                [
+                    40.31284379759984,
+                    -3.480977900326251
+                ],
+                [
+                    40.312109549961015,
+                    -3.481433875858783
+                ],
+                [
+                    40.31188661525399,
+                    -3.4810637310147277
+                ],
+                [
+                    40.312802892648875,
+                    -3.4801303222775455
+                ],
+                [
+                    40.313044231501344,
+                    -3.4804200008511534
+                ],
+                [
+                    40.31284379759984,
+                    -3.480977900326251
+                ]
+            ]
+        ]
+    },
+    "address": {
+        "addressLocality": [
+            "La Poveda",
+            "Arganda del Rey"
+        ],
+        "addressCountry": "ES",
+        "streetAddress": [
+            "CAR-B",
+            "Acceso CSIC"
+        ]
+    },
+    "contactPoint": {
+        "email": "rebeca.parra@car.upm-csic.es",
+        "telephone": "+34 918711900"
+    },
+    "ownedBy": "urn:ngsi-ld:Person:0c05ff75-ad39-4129-a9ef-c4a8cafa9e68",
+    "hasBuilding": [],
+    "hasAgriParcel": [
+        "urn:ngsi-ld:AgriParcel:70836411-6205-45a9-9151-a21f7a123052",
+        "urn:ngsi-ld:AgriParcel:4a1e7e36-8096-4ac1-8933-3a8a44ee2d71",
+        "urn:ngsi-ld:AgriParcel:7833f398-13af-4419-a548-d99f959bed85"
+    ]
+}
