@@ -91,7 +91,7 @@
         "operation-weeding-123",
         "operation-gotowarehouse-123"
     ],
-    "actualEndLocation": {
+    "actualLocation": {
         "type": "LineString",
         "coordinates": [
             [

@@ -62,7 +62,7 @@
     ],
     "actualBeginTime": "2012-04-13T10:40:00Z",
     "actualEndTime": "2012-04-13T10:40:00Z",
-    "actualEndLocation": {
+    "actualLocation": {
         "type": "LineString",
         "coordinates": [
             [

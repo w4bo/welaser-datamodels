@@ -21,7 +21,7 @@
     "hasExecutedTaskChildren": [],
     "actualBeginTime": "2012-04-13T10:40:00Z",
     "actualEndTime": "2012-04-13T10:40:00Z",
-    "actualEndLocation": {
+    "actualLocation": {
         "type": "Point",
         "coordinates": [
             -3.4817996621131897,
