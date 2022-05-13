@@ -1,5 +1,5 @@
 {
-    "id": "therm1",
+    "id": "therm-1",
     "type": "Device",
     "controlledProperty": [
         "temperature",
