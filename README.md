@@ -14,7 +14,6 @@ Other entities:
 
 ## Next steps
 
-- [LE] Create the repository for the new and/or modified entities for the smart data model (let's check the structure of the original data model repository)
 - [MF] Create a PoC with robot, devices, and ingestion of the entities
 - [MF + MG] Update the meta-model with "historic" properties
 - [MF] Prepare some mock-ups for Luis in order to (a) subscribe to robot changes/commands, (b) listen to kafka, (c) read/write to mongo, (d) join information on AgriFarm and AgriParcel
