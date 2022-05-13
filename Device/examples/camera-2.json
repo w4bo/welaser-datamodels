@@ -1,5 +1,5 @@
 {
-    "id": "camera1",
+    "id": "camera-2",
     "type": "Device",
     "controlledProperty": [
         "image"
