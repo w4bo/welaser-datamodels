@@ -15,8 +15,8 @@ Global description: **This entity contains a harmonised description of a generic
 - `hasAgriRobot`: List of ids of the robots involved in the task
 - `hasWorkingArea`: Id of the AgriFarm or ArgriParcel on which the robot is operating
 - `hasWorkingAreaType`: Type of the working aera
-- `plannedBeginTime`: The planned being time, in unixtimestamp, // e.g., representing "2022/04/13-10.40.00"
-- `plannedEndTime`: The planned end time, in unixtimestamp, // e.g., representing "2022/04/13-10.50.00"
+- `plannedBeginTime`: The planned being time (e.g., "2012-04-13T10:40:00Z")
+- `plannedEndTime`: The planned end time (e.g., "2012-04-13T10:50:00Z")
 - `plannedLocation`: The planned location of the task, a valid GEOJSON
 - `plannedSpeed`: The desired speed, in m/s
 - `hasPlannedTaskChildren`: The list of planned subtask ids
@@ -24,8 +24,8 @@ Global description: **This entity contains a harmonised description of a generic
 ### Dynamic
 
 - `hasActualTaskChildren`: The list of actually executed subtask ids. This is updated when the lower-level task finished.
-- `actualBeginTime`: The actual begin time, in unixtimestamp; e.g., representing "2022/04/12-10.52"
-- `actualEndTime`: The actual end time, in unixtimestamp; e.g., representing "2022/04/12-10.57"
+- `actualBeginTime`: The actual begin time (e.g., "2012-04-13T10:52:00Z")
+- `actualEndTime`: The actual end time  (e.g., "2012-04-13T10:57:00Z")
 - `actualEndLocation`: The actual location of the task, a valid GEOJSON
 - `status`: The status of the task, enum: (planned, ongoing, finished, scheduled, cancelled, SKIPPED)
 - `result`: The result of the task, enum: **TBD** 
