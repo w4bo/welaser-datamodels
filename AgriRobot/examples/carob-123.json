@@ -33,8 +33,13 @@
     "speed": 1,
     "bearing": 1,
     "heading": 1,
-    "commandList": ["running", "resume", "stop"],
+    "cmdList": [
+        "start",
+        "pause",
+        "resume",
+        "stop"
+    ],
     "cmd": {
-        "running": ""
+        "stop": {}
     }
 }
