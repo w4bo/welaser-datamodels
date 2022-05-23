@@ -7,7 +7,8 @@
     "name": "carob-123",
     "serviceProvided": [
         "weeding",
-        "seeding"
+        "seeding",
+        "heartbeat"
     ],
     "hasImplement": [
         "laser-123"
@@ -19,7 +20,8 @@
     ],
     "status": [
         "on",
-        "off"
+        "off",
+        1653309595
     ],
     "hitch": 123,
     "weight": 123,
