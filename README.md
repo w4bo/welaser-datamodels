@@ -14,15 +14,19 @@ Other entities:
 
 ## Next steps
 
-- [MF] Create a PoC with robot, devices, and ingestion of the entities
-- [MF + MG] Update the meta-model with "historic" properties
-- [MF] Prepare some mock-ups for Luis in order to (a) subscribe to robot changes/commands, (b) listen to kafka, (c) read/write to mongo, (d) join information on AgriFarm and AgriParcel
-- [LE] Check the (un)necessary attributes of the entities, verify if the entities are generic enough also for other robots/applications in the AgriDomain
-- [LE] Update AgriFarm and AgriParcel and add the other entities to describe the CSIC farm
-- [LE] Understand how the MissionPlanner works, and who updates the actions
+- [x] (MF) Create a PoC with robot, devices, and ingestion of the entities
+- [ ] (MF + MG) Update the meta-model with "historic" properties
+- [x] Prepare some mock-ups for Luis in order to 
+    - (a) subscribe to robot changes/commands,
+    - (b) listen to kafka,
+    - (c) read/write to mongo,
+    - (d) join information on AgriFarm and AgriParcel
+- [ ] (LE) Check the (un)necessary attributes of the entities, verify if the entities are generic enough also for other robots/applications in the AgriDomain
+- [ ] (LE) Update AgriFarm and AgriParcel and add the other entities to describe the CSIC farm
+- [ ] (LE) Understand how the MissionPlanner works, and who updates the actions
 
 Long-term 
-- [LE] Update the simulation with the AgriRobot and the mission. Robot starts on the gate, we `start` the weeding mission, `pause`, `resume`, `stop`.
+- [ ] (MF + LE) Update the simulation with the AgriRobot and the mission. Robot starts on the gate, we `start` the weeding mission, `pause`, `resume`, `stop`.
 
 ## Next meetings
 
