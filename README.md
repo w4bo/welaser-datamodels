@@ -14,19 +14,22 @@ Other entities:
 
 ## Next steps
 
-- [MF] Create a PoC with robot, devices, and ingestion of the entities
-- [MF + MG] Update the meta-model with "historic" properties
-- [MF] Prepare some mock-ups for Luis in order to (a) subscribe to robot changes/commands, (b) listen to kafka, (c) read/write to mongo, (d) join information on AgriFarm and AgriParcel
-- [LE] Check the (un)necessary attributes of the entities, verify if the entities are generic enough also for other robots/applications in the AgriDomain
-- [LE] Update AgriFarm and AgriParcel and add the other entities to describe the CSIC farm
-- [LE] Understand how the MissionPlanner works, and who updates the actions
-
-Long-term 
-- [LE] Update the simulation with the AgriRobot and the mission. Robot starts on the gate, we `start` the weeding mission, `pause`, `resume`, `stop`.
+- [x] (MF) Create a Docker environment reproducing the whole cloud infrastructure
+- [x] (MF) Create a PoC with robot, devices, and ingestion of the entities
+- [ ] (MF) Prepare some mock-ups for Luis in order to 
+    - [x] subscribe to robot changes/commands
+    - [ ] listen to kafka
+    - [ ] read/write to mongo
+    - [x] join information on AgriFarm and AgriParcel
+- [ ] Update the simulation with the AgriRobot and the mission. Robot starts on the gate, we `start` the weeding mission, `pause`, `resume`, `stop`.
+    - [x] (MF) Cloud side
+    - [ ] (LF) Robot side 
+- [ ] (LE) Check the (un)necessary attributes of the entities, verify if the entities are generic enough also for other robots/applications in the AgriDomain
+- [ ] (LE) Update AgriFarm and AgriParcel and add the other entities to describe the CSIC farm
+- [ ] (LE) Understand how the MissionPlanner works, and who updates the actions
 
 ## Next meetings
 
-- Steering committe April: Show that subsystems can communicate. How I can communicate through kafka (we have several agriparcels). Select a specific data to get information. Two outcomes: smart data model + show how to interact with Kafka.
 - June: preliminary demonstration. Robot moving from warehouse go to the field, move 2 turns, go back to the warehouse.
 
 Python demo
