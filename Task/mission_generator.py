@@ -7,6 +7,7 @@ def get_points_on_vector(initial_pt, terminal_pt, resolution):
     res = []
     for i in range(resolution):
         res = res + [get_point_on_vector(initial_pt, terminal_pt, dist * i)]
+    assert (len(res) == resolution)
     return res
 
 
@@ -16,11 +17,11 @@ def get_point_on_vector(initial_pt, terminal_pt, distance):
     n = v - u
     n /= np.linalg.norm(n, 2)
     point = v - distance * n
-    # print(str(n) + " " + str(np.linalg.norm(n, 2)) + " " + str(point.tolist()))
     return point.tolist()
 
 
 with open("examples/mission-123.json", "r+") as f:
+    samples = 10
     mission = json.load(f)
     f.seek(0)
     actualLocation = mission["actualLocation"]["coordinates"]
@@ -28,9 +29,8 @@ with open("examples/mission-123.json", "r+") as f:
     prev = actualLocation[0]
     for l in actualLocation[1:]:
         if prev != l:
-            res += get_points_on_vector(prev, l, 20)
-        else:
-            res += [l]
+            res += get_points_on_vector(prev, l, samples)
         prev = l
+    assert (len(res) <= samples * len(actualLocation))
     mission["actualLocation"]["coordinates"] = res
-    json.dump(mission, f)
+    json.dump(mission, f, indent=4)
