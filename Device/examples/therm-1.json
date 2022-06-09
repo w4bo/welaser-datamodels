@@ -5,7 +5,10 @@
         "temperature",
         "humidity"
     ],
-    "value": "t=18;h=30",
+    "value": [
+        18,
+        30
+    ],
     "location": {
         "type": "Point",
         "coordinates": [

@@ -1,5 +1,5 @@
 {
-    "id": "camera-2",
+    "id": "camera-3",
     "type": "Device",
     "controlledProperty": [
         "image"
@@ -7,8 +7,8 @@
     "location": {
         "type": "Point",
         "coordinates": [
-            -3.4811514708229670,
-            40.31285012589443
+            -3.4810637987225532,
+            40.31184130935516
         ]
     },
     "value": [
