@@ -1,5 +1,6 @@
 {
     "id": "camera-1",
+    "name": "Top-right Camera",
     "type": "Device",
     "controlledProperty": [
         "image"
