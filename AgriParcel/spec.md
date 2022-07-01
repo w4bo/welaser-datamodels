@@ -34,9 +34,9 @@ This is taken from https://github.com/smart-data-models/dataModel.Agrifood/blob/
 - `source`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object.  
 - `type`: NGSI Entity Type. It has to be AgriParcel  
 
-- `bearing`: Gives the vehicle GPS angle measured in a clockwise direction from the True North. SameAs 'bearing' field from GTFS Realtime message-Position (https://developers.google.com/- transit/gtfs-realtime/reference#message-position)
+- `bearing`: Gives the vehicle GPS angle measured in a clockwise direction from the True North. SameAs 'bearing' field from GTFS Realtime message-Position (https://developers.google.com/transit/gtfs-realtime/reference#message-position)
 - `headlandWidth`: Number (meters)
-- `gateLocation`: GEOJSON
+- `gateLocation`: Geojson reference to the item. It can be Point or MultiPoint
 - `interRowDistance`: Number (meters)
-- `cropRow`: representation of the crop rows. GEOJSON (MultilineString)
+- `cropRow`: representation of the crop rows. Geojson reference to the item. It can be MultilineString
 - `weedStatus` (TBD)
