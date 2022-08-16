@@ -1,0 +1,22 @@
+{
+    "id": "weatherstation-1",
+    "name": "Weather Station @ CSIC",
+    "type": "Device",
+    "controlledProperty": [
+        "temperature",
+        "humidity",
+        "heartbeat"
+    ],
+    "value": [
+        18,
+        50,
+        -1
+    ],
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            -3.4810637987225532,
+            40.31184130935516
+        ]
+    }
+}
