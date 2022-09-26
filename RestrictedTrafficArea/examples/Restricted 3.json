@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:RestrictedTrafficArea:888b508a-aa53-46e2-9542-ea94a643c61e",
+  "id":"urn:ngsi-ld:RestrictedTrafficArea:68c1b163-d957-422e-b7a6-9dcaee0d7bd1",
   "type":"RestrictedTrafficArea",
   "category":"onlyPedestrian",
   "description":"Panel:AP - Stretches:lato civici dispari da piazza Tricolore a via Kramer - Bollards: - Notes:",
@@ -44,6 +44,6 @@
   "regulation":"Decree:54785/2004, Deliberation:425/2004",
   "source":"https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl_zone_30_",
   "validityEndDate":"2049-12-31T23:00:00.00Z",
-  "dateCreated":"2022-09-26T10:03:50Z",
-  "dateModified":"2022-09-26T10:03:50Z"
+  "dateCreated":"2022-09-26T15:22:09Z",
+  "dateModified":"2022-09-26T15:22:09Z"
 }

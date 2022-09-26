@@ -1,0 +1,22 @@
+{
+  "id":"urn:ngsi-ld:Task:0e1e68fd-73a6-4247-af0d-67178a45283d",
+  "type":"Task",
+  "goal":"Automatically weeding an Field",
+  "taskType":"Action",
+  "name":"Weeding with HPL",
+  "hasAgriRobot":"carob-123",
+  "hasWorkingArea":[],
+  "workingAreaType":[],
+  "plannedBeginTime":"2022-09-26T15:42:03Z",
+  "plannedEndTime":"2022-09-26T15:58:03Z",
+  "plannedSpeed":0.55,
+  "plannedLocation":[],
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualLocation":[],
+  "actualBeginTime":"2012-04-13T10:52:00Z",
+  "actualEndTime":"2012-04-13T10:57:00Z",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
