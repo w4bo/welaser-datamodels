@@ -1,0 +1,49 @@
+{
+  "id":"urn:ngsi-ld:RestrictedTrafficArea:888b508a-aa53-46e2-9542-ea94a643c61e",
+  "type":"RestrictedTrafficArea",
+  "category":"onlyPedestrian",
+  "description":"Panel:AP - Stretches:lato civici dispari da piazza Tricolore a via Kramer - Bollards: - Notes:",
+  "location":{
+    "type":"Point",
+    "coordinates":[
+      40.31317001369695,
+      -3.4829583764076233
+    ]
+  },
+  "landLocation":{
+    "type":"Polygon",
+    "coordinates":[
+      [
+        [
+          40.31317001369695,
+          -3.4829583764076233
+        ],
+        [
+          40.3135463362652,
+          -3.4830348193645473
+        ],
+        [
+          40.31352792923186,
+          -3.483210504055023
+        ],
+        [
+          40.31315160656099,
+          -3.4831327199935913
+        ],
+        [
+          40.31317001369695,
+          -3.4829583764076233
+        ]
+      ]
+    ]
+  },
+  "name":"Corso Concordia Area",
+  "notAllowedVehicleType":[
+    "anyVehicle"
+  ],
+  "regulation":"Decree:54785/2004, Deliberation:425/2004",
+  "source":"https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl_zone_30_",
+  "validityEndDate":"2049-12-31T23:00:00.00Z",
+  "dateCreated":"2022-09-26T10:03:50Z",
+  "dateModified":"2022-09-26T10:03:50Z"
+}
