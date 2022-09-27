@@ -9,5 +9,8 @@ for root, dirs, files in os.walk("."):
             with open(path) as f:
                 entity = json.load(f)
                 # all entities should have a type and an id
-                print(entity["type"])
-                print(entity["id"])
+                assert "id" in entity
+                assert "type" in entity
+                if "Task" in path:
+                    assert "actualLocation" in entity
+
