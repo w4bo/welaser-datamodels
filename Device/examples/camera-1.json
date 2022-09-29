@@ -3,7 +3,8 @@
     "name": "Top-right Camera",
     "type": "Device",
     "controlledProperty": [
-        "image"
+        "image",
+        "timestamp"
     ],
     "location": {
         "type": "Point",
