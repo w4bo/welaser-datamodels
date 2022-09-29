@@ -1,14 +1,14 @@
 {
-  "id":"urn:ngsi-ld:Task:0faa74d9-eec7-427b-af7e-31b1af51b26c",
+  "id":"urn:ngsi-ld:Task:01f237b6-09df-42dc-b84a-8e2091e840f0",
   "type":"Task",
   "goal":"Automatically weeding an Field",
   "taskType":"Mission",
   "name":"Weeding with HPL",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:f7151148-e09f-457e-893e-19428c6a7654",
   "workingAreaType":"AgriFarm",
-  "plannedBeginTime":"2022-09-26T15:42:58Z",
-  "plannedEndTime":"2022-09-26T16:32:58Z",
+  "plannedBeginTime":"2022-09-29T08:56:31Z",
+  "plannedEndTime":"2022-09-29T11:43:31Z",
   "plannedSpeed":0.55,
   "plannedLocation":{
     "type":{
@@ -133,11 +133,11 @@
     "coordinates":[]
   },
   "hasPlannedTaskChildren":[
-    "urn:ngsi-ld:Task:e1a54b81-1a05-4d86-b233-3cabb4cb8f73",
-    "urn:ngsi-ld:Task:22089235-ff28-46a7-8a02-b0c5c431870a",
-    "urn:ngsi-ld:Task:dac2044d-5dcb-4c00-a260-276a9e72ffda",
-    "urn:ngsi-ld:Task:89267d27-1b02-4cbc-9706-84e2ad0b0849",
-    "urn:ngsi-ld:Task:e6bf3812-ee89-4626-9d19-a855c93a0045"
+    "urn:ngsi-ld:Task:0fa83195-267f-417a-bba5-131967697936",
+    "urn:ngsi-ld:Task:5eb8d99a-9375-40e9-b135-546fb7121a34",
+    "urn:ngsi-ld:Task:db7d43eb-abc9-474b-af12-eb5e1c3dacca",
+    "urn:ngsi-ld:Task:c6c6f2ed-056b-44a9-94b6-ff093564334f",
+    "urn:ngsi-ld:Task:616209db-86f8-4542-8c88-6803ac2d19c0"
   ],
   "hasExecutedTaskChildren":[],
   "actualLocation":[],

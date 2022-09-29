@@ -1,16 +1,21 @@
 {
-  "id":"urn:ngsi-ld:Task:7c3e9298-01fc-4596-82c1-b81dce3b44be",
+  "id":"urn:ngsi-ld:Task:645d4c77-fe83-4878-83ec-431a1a2df1b3",
   "type":"Task",
-  "goal":"Automatically weeding an Field",
+  "goal":"Continue Action",
   "taskType":"Action",
-  "name":"Weeding with HPL",
+  "name":"MoveTo",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":[],
-  "workingAreaType":[],
-  "plannedBeginTime":"2022-09-26T15:42:58Z",
-  "plannedEndTime":"2022-09-26T15:58:58Z",
+  "hasWorkingArea":"Gate",
+  "workingAreaType":"gate",
+  "plannedBeginTime":[],
+  "plannedEndTime":[],
   "plannedSpeed":0.55,
-  "plannedLocation":[],
+  "plannedLocation":[
+    [
+      40.3126585,
+      -3.480769
+    ]
+  ],
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
   "actualLocation":[],

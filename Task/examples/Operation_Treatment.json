@@ -1,16 +1,14 @@
 {
-  "id":"urn:ngsi-ld:Task:dac2044d-5dcb-4c00-a260-276a9e72ffda",
+  "id":"urn:ngsi-ld:Task:db7d43eb-abc9-474b-af12-eb5e1c3dacca",
   "type":"Task",
   "goal":"Treatment of the Field",
   "taskType":"Operation",
   "name":"Treatment",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":[
-    "urn:ngsi-ld:AgriParcel:9d90016c-4ad2-4e2d-a0ce-5b84f8c8a208"
-  ],
-  "workingAreaType":"AgriParcel",
-  "plannedBeginTime":"2022-09-26T15:42:58Z",
-  "plannedEndTime":"2022-09-26T15:43:58Z",
+  "hasWorkingArea":"urn:ngsi-ld:AgriParcel:50e318c5-f7c1-45c1-98ea-8a245034ee51",
+  "workingAreaType":"AgriParcel 1",
+  "plannedBeginTime":"2022-09-29T09:17:31Z",
+  "plannedEndTime":"2022-09-29T09:52:31Z",
   "plannedSpeed":0.55,
   "plannedLocation":"",
   "hasPlannedTaskChildren":[],
