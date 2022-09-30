@@ -138,6 +138,7 @@
     "urn:ngsi-ld:Task:db7d43eb-abc9-474b-af12-eb5e1c3dacca",
     "urn:ngsi-ld:Task:c6c6f2ed-056b-44a9-94b6-ff093564334f",
     "urn:ngsi-ld:Task:616209db-86f8-4542-8c88-6803ac2d19c0"
+
   ],
   "hasExecutedTaskChildren":[],
   "actualLocation":[],

@@ -6,7 +6,7 @@
   "name":"Shutdown",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":[
-    "urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e"
+  "urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e"
   ],
   "workingAreaType":[
     "Building C"
