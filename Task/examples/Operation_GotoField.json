@@ -1,14 +1,14 @@
 {
-  "id":"urn:ngsi-ld:Task:22089235-ff28-46a7-8a02-b0c5c431870a",
+  "id":"urn:ngsi-ld:Task:5eb8d99a-9375-40e9-b135-546fb7121a34",
   "type":"Task",
-  "goal":"GoTo Field 6",
+  "goal":"Field",
   "taskType":"Operation",
-  "name":"GoTo Field",
+  "name":"GoTo",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:f7151148-e09f-457e-893e-19428c6a7654",
   "workingAreaType":"AgriFarm",
-  "plannedBeginTime":"2022-09-26T15:42:58Z",
-  "plannedEndTime":"2022-09-26T15:58:58Z",
+  "plannedBeginTime":"2022-09-29T09:01:31Z",
+  "plannedEndTime":"2022-09-29T09:17:31Z",
   "plannedSpeed":0.55,
   "plannedLocation":[
     [
@@ -35,12 +35,11 @@
     ]
   ],
   "hasPlannedTaskChildren":[
-    "urn:ngsi-ld:Task:7c5536b5-a1d0-48b9-9d91-0f44af5bc408",
-    "urn:ngsi-ld:Task:7c3e9298-01fc-4596-82c1-b81dce3b44be",
-    "urn:ngsi-ld:Task:17a43800-4d59-4888-ac59-573790e9b132",
-    "urn:ngsi-ld:Task:04039a50-828e-4122-92d9-27dda8f99021",
-    "urn:ngsi-ld:Task:36155317-27fe-4884-8123-4a894adc1877",
-    "urn:ngsi-ld:Task:15b856ed-a0e4-42fc-a521-67e7b748beb2"
+    "urn:ngsi-ld:Task:b5210872-0451-4e4e-8292-7fe99a61e49c",
+    "urn:ngsi-ld:Task:5d937315-3835-43b0-86f3-406618a2943b",
+    "urn:ngsi-ld:Task:de804afd-147e-4860-ae35-daa0ead0e544",
+    "urn:ngsi-ld:Task:f64339d1-5c07-4495-9c72-59a67bddc577",
+    "urn:ngsi-ld:Task:67c15105-0de0-4897-be35-72238213fea3"
   ],
   "hasExecutedTaskChildren":[],
   "actualLocation":[],
