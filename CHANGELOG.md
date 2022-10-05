@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/w4bo/welaser-datamodels/compare/1.0.3...1.0.4) (2022-10-05)
+
+
+### Bug Fixes
+
+* **agriparcel:** fix geojson location ([#16](https://github.com/w4bo/welaser-datamodels/issues/16)) ([512971a](https://github.com/w4bo/welaser-datamodels/commit/512971a424cd52ad660246a77c66a57f334b6000))
+
 ## [1.0.3](https://github.com/w4bo/welaser-datamodels/compare/1.0.2...1.0.3) (2022-10-05)
 
 
