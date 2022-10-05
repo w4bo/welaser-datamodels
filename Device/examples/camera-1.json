@@ -5,7 +5,7 @@
     "type": "Device",
     "controlledProperty": [
         "image",
-        "timestamp"
+        "heartbeat"
     ],
     "location": {
         "type": "Point",
