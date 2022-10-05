@@ -1,3 +1,10 @@
+## [1.0.3](https://github.com/w4bo/welaser-datamodels/compare/1.0.2...1.0.3) (2022-10-05)
+
+
+### Bug Fixes
+
+* **device:** update the cameras ([#13](https://github.com/w4bo/welaser-datamodels/issues/13)) ([d130497](https://github.com/w4bo/welaser-datamodels/commit/d1304977d873e540fddf1db2d336e230a4c23fff))
+
 ## [1.0.2](https://github.com/w4bo/welaser-datamodels/compare/1.0.1...1.0.2) (2022-09-30)
 
 
