@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/w4bo/welaser-datamodels/compare/1.0.4...1.0.5) (2022-10-05)
+
+
+### Bug Fixes
+
+* **agrifarm:** fix geojson ([cafe92e](https://github.com/w4bo/welaser-datamodels/commit/cafe92e16cc2db8fd80574775bb9325472640cd3))
+
 ## [1.0.4](https://github.com/w4bo/welaser-datamodels/compare/1.0.3...1.0.4) (2022-10-05)
 
 
