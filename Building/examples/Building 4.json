@@ -1,0 +1,64 @@
+{
+  "id":"urn:ngsi-ld:Building:2d5c9ecf-7237-4c90-a4af-f319c3ac6063",
+  "type":"Building",
+  "dateCreated":"2022-10-06T10:15:29Z",
+  "dateModified":"2022-10-06T10:15:29Z",
+  "source":"http://www.example.com",
+  "description":"Building A",
+  "dataProvider":"OperatorA",
+  "category":"office",
+  "location":{
+    "type":"Polygon",
+    "coordinates":[
+      [
+        [
+          40.31316029882028,
+          -3.48197802901268
+        ],
+        [
+          40.313084624996186,
+          -3.4819646179676056
+        ],
+        [
+          40.31309382857393,
+          -3.4818781167268753
+        ],
+        [
+          40.31316745715058,
+          -3.481895551085472
+        ],
+        [
+          40.31316029882028,
+          -3.48197802901268
+        ]
+      ]
+    ]
+  },
+  "address":{
+    "addressLocality":[
+      " La Poveda",
+      " Arganda del Rey"
+    ],
+    "postalCode":[],
+    "streetAddress":[
+      "CAR-B",
+      " Acceso CSIC"
+    ]
+  },
+  "owner":[
+    "cdfd9cb8-ae2b-47cb-a43a-b9767ffd5c84",
+    "1be9cd61-ef59-421f-a326-4b6c84411ad4"
+  ],
+  "occupier":[
+    "9830f692-7677-11e6-838b-4f9fb3dc5a4f"
+  ],
+  "floorsAboveGround":7,
+  "floorsBelowGround":0,
+  "mapUrl":"http://www.example.com",
+  "openingHours":[
+    "Mo-Fr 10:00-19:00",
+    "Sa 10:00-22:00",
+    "Su 10:00-21:00"
+  ],
+  "ownedBy":"urn:ngsi-ld:Person:5c5b2105-0c72-4f80-a63a-becf6e7f8121"
+}

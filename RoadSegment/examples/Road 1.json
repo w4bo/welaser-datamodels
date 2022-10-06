@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:RoadSegment:65fe5dd5-b99b-48f5-b32f-0184f2b3f46a",
+  "id":"urn:ngsi-ld:RoadSegment:e4927ba7-70df-4809-b901-cf2356559dba",
   "type":"RoadSegment",
   "name":"Road M",
   "category":[
@@ -77,6 +77,6 @@
       ]
     ]
   },
-  "dateCreated":"2022-09-26T15:22:10Z",
-  "dateModified":"2022-09-26T15:22:10Z"
+  "dateCreated":"2022-10-06T10:15:31Z",
+  "dateModified":"2022-10-06T10:15:31Z"
 }

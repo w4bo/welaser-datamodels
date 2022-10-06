@@ -1,30 +1,32 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:fc1ac3cc-a8f5-42cf-8a1f-f4d12d7f5dc7",
+  "id":"urn:ngsi-ld:AgriParcel:2092496c-eb33-4ed1-baab-369b782ec726",
   "type":"AgriParcel",
-  "dateCreated":"2022-09-26T15:22:07Z",
-  "dateModified":"2022-09-26T15:22:07Z",
+  "dateCreated":"2022-10-06T10:15:28Z",
+  "dateModified":"2022-10-06T10:15:28Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
       [
-        40.31203489759522,
-        -3.4811733663082123
-      ],
-      [
-        40.31195513196247,
-        -3.4809587895870204
-      ],
-      [
-        40.312104948105244,
-        -3.4808535128831863
-      ],
-      [
-        40.31218420224432,
-        -3.4810667484998703
-      ],
-      [
-        40.31203489759522,
-        -3.4811733663082123
+        [
+          40.31203489759522,
+          -3.4811733663082123
+        ],
+        [
+          40.31195513196247,
+          -3.4809587895870204
+        ],
+        [
+          40.312104948105244,
+          -3.4808535128831863
+        ],
+        [
+          40.31218420224432,
+          -3.4810667484998703
+        ],
+        [
+          40.31203489759522,
+          -3.4811733663082123
+        ]
       ]
     ]
   },
@@ -42,27 +44,25 @@
     "https://datamodel.org/example/agriparcel"
   ],
   "belongsTo":"",
-  "ownedBy":"urn:ngsi-ld:Person:f17126ce-28fc-4e0d-9aed-24461bda195a",
-  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:36021150-4474-11e8-a721-af07c5fae7c8",
+  "ownedBy":"urn:ngsi-ld:Person:b1bcc2f0-40e1-4819-9bda-08481feca574",
+  "hasAgriCrop":[],
   "headlandWidth":4,
-  "gateLocation":[
-    [
-      -3.480871,
-      40.312532
-    ],
-    [
-      -3.480832,
-      40.312518
+  "gateLocation":{
+    "type":"Point",
+    "coordinates":[
+      [
+        -3.480871,
+        40.312532
+      ],
+      [
+        -3.480832,
+        40.312518
+      ]
     ]
-  ],
-  "bearing":140,
-  "cropStatus":"seeded",
+  },
+  "bearing":149,
+  "cropStatus":"",
   "lastPlantedAt":"2016-08-23T10:18:16Z",
-  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:429d1338-4474-11e8-b90a-d3e34ceb73df",
-  "hasDevice":[
-    "urn:ngsi-ld:Device:4a40aeba-4474-11e8-86bf-03d82e958ce6",
-    "urn:ngsi-ld:Device:63217d24-4474-11e8-9da2-c3dd3c36891b",
-    "urn:ngsi-ld:Device:68e091dc-4474-11e8-a398-df010c53b416",
-    "urn:ngsi-ld:6f44b54e-4474-11e8-8577-d7ff6a8ef551"
-  ]
+  "hasAgriSoil":[],
+  "hasDevice":[]
 }
