@@ -154,9 +154,9 @@
   },
   "contactPoint":{
     "email":"ruth.cordova@csic.es",
-    "telephone":"123456"
+    "telephone":"+34918711900"
   },
-  "ownedBy":"urn:ngsi-ld:Person:4442884a-79c3-4a33-9795-22c0d11d123c",
+  "ownedBy":"",
   "hasBuilding":[
     "urn:ngsi-ld:Building:66d14f08-9b4e-4d5b-b2af-2530135e37c6",
     "urn:ngsi-ld:Building:49d7d006-7eb5-4a3f-b726-e5051d95a2ef",
