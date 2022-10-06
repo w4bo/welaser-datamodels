@@ -1,8 +1,8 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:cc11a7d4-3efd-4c40-b412-fed269194a8f",
+  "id":"urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
   "type":"AgriParcel",
-  "dateCreated":"2022-10-06T10:15:28Z",
-  "dateModified":"2022-10-06T10:15:28Z",
+  "dateCreated":"2022-10-06T12:26:11Z",
+  "dateModified":"2022-10-06T12:26:11Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
@@ -39,16 +39,13 @@
       "applicationEntityId":""
     }
   ],
-  "seeAlso":[
-    "https://example.org/concept/agriparcel",
-    "https://datamodel.org/example/agriparcel"
-  ],
+  "seeAlso":[],
   "belongsTo":"",
-  "ownedBy":"urn:ngsi-ld:Person:4dde09c2-9fe9-483f-88ca-0e405691bf23",
+  "ownedBy":"",
   "hasAgriCrop":[],
   "headlandWidth":4,
   "gateLocation":{
-    "type":"Point",
+    "type":"MultiPoint",
     "coordinates":[
       [
         -3.480871,

@@ -1,10 +1,9 @@
 {
-  "id":"urn:ngsi-ld:Building:ca591f4f-f991-4ff4-9aff-1da4b2992863",
+  "id":"urn:ngsi-ld:Building:693ef177-41e5-4e29-b485-db68a0735b07",
   "type":"Building",
-  "dateCreated":"2022-10-06T10:15:29Z",
-  "dateModified":"2022-10-06T10:15:29Z",
-  "source":"http://www.example.com",
-  "description":"Building B",
+  "dateCreated":"2022-10-06T12:26:12Z",
+  "dateModified":"2022-10-06T12:26:12Z",
+  "source":"",
   "dataProvider":"OperatorA",
   "category":"office",
   "location":{
@@ -47,26 +46,18 @@
       " La Poveda",
       " Arganda del Rey"
     ],
-    "postalCode":[],
     "streetAddress":[
       "CAR-B",
       " Acceso CSIC"
-    ]
+    ],
+    "postalCode":[]
   },
-  "owner":[
-    "cdfd9cb8-ae2b-47cb-a43a-b9767ffd5c84",
-    "1be9cd61-ef59-421f-a326-4b6c84411ad4"
-  ],
-  "occupier":[
-    "9830f692-7677-11e6-838b-4f9fb3dc5a4f"
-  ],
-  "floorsAboveGround":7,
-  "floorsBelowGround":0,
-  "mapUrl":"http://www.example.com",
-  "openingHours":[
-    "Mo-Fr 10:00-19:00",
-    "Sa 10:00-22:00",
-    "Su 10:00-21:00"
-  ],
-  "ownedBy":"urn:ngsi-ld:Person:ae36f60f-ef61-43c5-959a-e188c8efe66f"
+  "owner":[],
+  "occupier":[],
+  "floorsAboveGround":"",
+  "floorsBelowGround":"",
+  "description":"Building B",
+  "mapUrl":"",
+  "openingHours":[],
+  "ownedBy":""
 }

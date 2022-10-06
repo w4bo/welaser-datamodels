@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:RestrictedTrafficArea:83a29622-4bdf-4311-8be1-2b16b912d694",
+  "id":"urn:ngsi-ld:RestrictedTrafficArea:07788064-5ea2-4cbf-b19f-e93fa064731c",
   "type":"RestrictedTrafficArea",
   "category":"onlyPedestrian",
   "description":"Restricted Area",
@@ -45,9 +45,9 @@
   "notAllowedVehicleType":[
     "anyVehicle"
   ],
-  "regulation":"Decree:54785/2004, Deliberation:425/2004",
-  "source":"https://dati.comune.milano.it/dataset/ds51_trafficotrasporti_aree_pedonali_ztl_zone_30_",
-  "validityEndDate":"2049-12-31T23:00:00.00Z",
-  "dateCreated":"2022-10-06T10:15:30Z",
-  "dateModified":"2022-10-06T10:15:30Z"
+  "regulation":"",
+  "source":"",
+  "validityEndDate":"",
+  "dateCreated":"2022-10-06T12:26:13Z",
+  "dateModified":"2022-10-06T12:26:13Z"
 }

@@ -1,8 +1,8 @@
 {
-  "id":"urn:ngsi-ld:AgriFarm:bcf89945-30c2-4353-8da7-a578e7850732",
+  "id":"urn:ngsi-ld:AgriFarm:60cbc1c8-88fa-4a0f-b48a-cd71e599c759",
   "type":"AgriFarm",
-  "dateCreated":"2022-10-06T10:15:12Z",
-  "dateModified":"2022-10-06T10:15:12Z",
+  "dateCreated":"2022-10-06T12:26:07Z",
+  "dateModified":"2022-10-06T12:26:07Z",
   "name":"Wheat farm",
   "description":"area of action",
   "relatedSource":[
@@ -11,10 +11,7 @@
       "applicationEntityId":""
     }
   ],
-  "seeAlso":[
-    "https://example.org/concept/farm",
-    "https://datamodel.org/example/farm"
-  ],
+  "seeAlso":[],
   "location":{
     "type":"Point",
     "coordinates":[
@@ -158,29 +155,29 @@
   },
   "ownedBy":"",
   "hasBuilding":[
-    "urn:ngsi-ld:Building:66d14f08-9b4e-4d5b-b2af-2530135e37c6",
-    "urn:ngsi-ld:Building:49d7d006-7eb5-4a3f-b726-e5051d95a2ef",
-    "urn:ngsi-ld:Building:ca591f4f-f991-4ff4-9aff-1da4b2992863",
-    "urn:ngsi-ld:Building:2d5c9ecf-7237-4c90-a4af-f319c3ac6063"
+    "urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
+    "urn:ngsi-ld:Building:592c65d3-4bab-4cd8-9113-5bb821599d00",
+    "urn:ngsi-ld:Building:693ef177-41e5-4e29-b485-db68a0735b07",
+    "urn:ngsi-ld:Building:dd4cf746-d622-4284-a722-538550266002"
   ],
   "hasAgriParcel":[
-    "urn:ngsi-ld:AgriParcel:96ef5b40-51e4-465a-9acf-abc9ac847384",
-    "urn:ngsi-ld:AgriParcel:9cdef959-14f8-4f9e-8cd1-7fc056978620",
-    "urn:ngsi-ld:AgriParcel:bab85ff4-f579-4599-8ec3-5c03a5fb0143",
-    "urn:ngsi-ld:AgriParcel:cc11a7d4-3efd-4c40-b412-fed269194a8f",
-    "urn:ngsi-ld:AgriParcel:628e225c-c14f-4792-9c84-6d1e85b7e2e7",
-    "urn:ngsi-ld:AgriParcel:b5cef1de-b385-439f-9ea6-f2b4c246a8f0",
-    "urn:ngsi-ld:AgriParcel:2092496c-eb33-4ed1-baab-369b782ec726",
-    "urn:ngsi-ld:AgriParcel:0232ec3a-5b5b-4c9f-9cd3-d1ad57486839",
-    "urn:ngsi-ld:AgriParcel:3589cfb3-f909-411f-8270-990b3de2ab80"
+    "urn:ngsi-ld:AgriParcel:ce109a14-09a3-48a9-90e1-e76b61dee0fd",
+    "urn:ngsi-ld:AgriParcel:04486193-afd7-44f8-a32e-fee883dde8f8",
+    "urn:ngsi-ld:AgriParcel:384d274d-171e-43c2-b351-d29465837270",
+    "urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
+    "urn:ngsi-ld:AgriParcel:76875a84-18fe-4b20-b24b-21a44cbeaf2e",
+    "urn:ngsi-ld:AgriParcel:9b194447-c996-416a-bd50-8217204c1edb",
+    "urn:ngsi-ld:AgriParcel:f34d578b-73bd-4168-b5c7-ddcc5f9dd276",
+    "urn:ngsi-ld:AgriParcel:76f6ee82-76d0-492a-9ed3-f167ef1c1493",
+    "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac"
   ],
   "hasRestrictedTrafficArea":[
-    "urn:ngsi-ld:RestrictedTrafficArea:1ce9f4d2-e759-4729-9b57-46744623c538",
-    "urn:ngsi-ld:RestrictedTrafficArea:83a29622-4bdf-4311-8be1-2b16b912d694",
-    "urn:ngsi-ld:RestrictedTrafficArea:8ed8b7ff-0145-47f9-9a9a-2e20de7b1480"
+    "urn:ngsi-ld:RestrictedTrafficArea:92dfe118-c698-408f-b688-e99a8d37970b",
+    "urn:ngsi-ld:RestrictedTrafficArea:07788064-5ea2-4cbf-b19f-e93fa064731c",
+    "urn:ngsi-ld:RestrictedTrafficArea:0414162e-4575-4ebd-b0e7-a0459a81fa05"
   ],
   "hasRoadSegment":[
-    "urn:ngsi-ld:RoadSegment:e4927ba7-70df-4809-b901-cf2356559dba",
-    "urn:ngsi-ld:RoadSegment:ac16c30c-7f6e-4def-84ad-f71d2ee9167d"
+    "urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
+    "urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73"
   ]
 }
