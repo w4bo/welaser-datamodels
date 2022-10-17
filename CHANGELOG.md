@@ -1,3 +1,15 @@
+## [1.0.6](https://github.com/w4bo/welaser-datamodels/compare/1.0.5...1.0.6) (2022-10-17)
+
+
+### Bug Fixes
+
+* **device:** add Giuliano's entities ([#21](https://github.com/w4bo/welaser-datamodels/issues/21)) ([edce5a7](https://github.com/w4bo/welaser-datamodels/commit/edce5a728008fe162a0c138f2559988f0d73fb67))
+
+
+### General maintenance
+
+* **release:** 1.0.0 [skip ci] ([7ab6e5a](https://github.com/w4bo/welaser-datamodels/commit/7ab6e5a113fae54bff27fd2c433627b9a2d7a272))
+
 ## [1.0.5](https://github.com/w4bo/welaser-datamodels/compare/1.0.4...1.0.5) (2022-10-05)
 
 
