@@ -1,7 +1,7 @@
 {
     "type": "Device",
     "name": "Camera_robot_FrontLeft",
-    "id": " urn:ngsi-ld:Device:Camera_robot_FrontLeft",
+    "id": "urn:ngsi-ld:Device:Camera_robot_FrontLeft",
     "areaServed": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
     "location": {
         "type": "Point",
