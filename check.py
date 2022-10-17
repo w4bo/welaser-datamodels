@@ -12,7 +12,9 @@ for root, dirs, files in os.walk("."):
                 entity = json.load(f)
                 # all entities should have a type and an id
                 assert "id" in entity
+                assert " " not in entity["id"], {"id": entity["id"]}
                 assert "type" in entity
+                assert " " not in entity["type"], {"id": entity["id"], "type": entity["type"]}
                 regexp = re.compile(r'\(|\)')
                 for key, value in entity.items():
                     assert not regexp.search(str(value)), {"id": entity["id"], key: value}
