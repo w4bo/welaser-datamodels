@@ -91,8 +91,3 @@ ROS (1 robot -> 1 active controller per time)
 - ROSbug to recrete the original behavior by storing the sequences of ros messages
 
 Drones?
-
-
-### Robot
-
-Device with highlighy different sensor rates.
