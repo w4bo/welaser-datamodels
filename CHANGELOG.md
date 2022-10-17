@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/w4bo/welaser-datamodels/compare/1.0.6...1.0.7) (2022-10-17)
+
+
+### Bug Fixes
+
+* **test:** do not allow spaces in id and type ([#23](https://github.com/w4bo/welaser-datamodels/issues/23)) ([e7ec1da](https://github.com/w4bo/welaser-datamodels/commit/e7ec1dad3cea3494020955d422a92d2db22d148d))
+
 ## [1.0.6](https://github.com/w4bo/welaser-datamodels/compare/1.0.5...1.0.6) (2022-10-17)
 
 
