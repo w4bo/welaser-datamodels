@@ -5,7 +5,7 @@
   "taskType":"Mission",
   "name":"Weeding with HPL",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:f7151148-e09f-457e-893e-19428c6a7654",
+  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "workingAreaType":"AgriFarm",
   "plannedBeginTime":"2022-09-29T08:56:31Z",
   "plannedEndTime":"2022-09-29T11:43:31Z",
