@@ -140,13 +140,13 @@
   },
   "address":{
     "addressLocality":[
-      " La Poveda",
-      " Arganda del Rey"
+      "La Poveda",
+      "Arganda del Rey"
     ],
     "addressCountry":"ES",
     "streetAddress":[
-      "Arganda N\u00ba 3",
-      " Camino de la Poveda"
+      "Arganda N 3",
+      "Camino de la Poveda"
     ]
   },
   "contactPoint":{
