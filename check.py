@@ -17,6 +17,8 @@ for root, dirs, files in os.walk("."):
                 assert " " not in entity["type"], {"id": entity["id"], "type": entity["type"]}
                 regexp = re.compile(r'\(|\)')
                 for key, value in entity.items():
+                    assert not key.startswith(" ") and not key.endswith(" "), {"id": entity["id"], key: value}
+                    assert not str(value).startswith(" ") and not str(value).endswith(" "), {"id": entity["id"], key: value}
                     assert not regexp.search(str(value)), {"id": entity["id"], key: value}
                 if "Task" in path:
                     assert "actualLocation" in entity
