@@ -5,7 +5,7 @@
     "taskType": "Mission",
     "name": "Weeding",
     "hasAgriRobot": "carob-123",
-    "hasWorkingArea": "agrifarm-123",
+    "hasWorkingArea": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
     "workingAreaType": "AgriFarm",
     "plannedBeginTime": "2012-04-13T10:40:00Z",
     "plannedEndTime": "2012-04-13T10:50:00Z",
@@ -76,6 +76,10 @@
             [
                 -3.4817782044410706,
                 40.313311134905796
+            ],
+            [
+                -3.4817996621131897,
+                40.313309089672984
             ]
         ]
     },

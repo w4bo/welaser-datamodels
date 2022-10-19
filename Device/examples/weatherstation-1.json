@@ -1,7 +1,8 @@
 {
-    "id": "weatherstation-1",
+    "id": "urn:ngsi-ld:Device:weatherstation-1",
     "name": "Weather Station @ CSIC",
     "type": "Device",
+    "areaServed": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
     "controlledProperty": [
         "temperature",
         "humidity",

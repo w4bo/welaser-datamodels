@@ -3,40 +3,40 @@
   "type":"AgriParcel",
   "dateCreated":"2022-10-06T12:26:11Z",
   "dateModified":"2022-10-06T12:26:11Z",
-  "location":{
-    "type":"Polygon",
-    "coordinates":[
+  "location": {
+    "type": "Polygon",
+    "coordinates": [
       [
         [
-          40.31203489759522,
-          -3.4811733663082123
+          -3.4811733663082123,
+          40.31203489759522
         ],
         [
-          40.31195513196247,
-          -3.4809587895870204
+          -3.4809587895870204,
+          40.31195513196247
         ],
         [
-          40.312104948105244,
-          -3.4808535128831863
+          -3.4808535128831863,
+          40.312104948105244
         ],
         [
-          40.31218420224432,
-          -3.4810667484998703
+          -3.4810667484998703,
+          40.31218420224432
         ],
         [
-          40.31203489759522,
-          -3.4811733663082123
+          -3.4811733663082123,
+          40.31203489759522
         ]
       ]
     ]
   },
-  "area":381.19,
-  "description":"AgriParcel 9",
-  "category":"Arable",
-  "relatedSource":[
+  "area": 381.19,
+  "description": "AgriParcel 9",
+  "category": "Arable",
+  "relatedSource": [
     {
-      "application":"",
-      "applicationEntityId":""
+      "application": "",
+      "applicationEntityId": ""
     }
   ],
   "seeAlso":[],
