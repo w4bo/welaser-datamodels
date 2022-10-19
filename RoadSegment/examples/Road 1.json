@@ -1,8 +1,8 @@
 {
-  "id": "urn:ngsi-ld:RoadSegment:65fe5dd5-b99b-48f5-b32f-0184f2b3f46a",
-  "type": "RoadSegment",
-  "name": "Road M",
-  "category": [
+  "id":"urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
+  "type":"RoadSegment",
+  "name":"Road M",
+  "category":[
     "oneway"
   ],
   "roadMaterial": "asphalt",
@@ -77,6 +77,6 @@
       ]
     ]
   },
-  "dateCreated": "2022-09-26T15:22:10Z",
-  "dateModified": "2022-09-26T15:22:10Z"
+  "dateCreated":"2022-10-06T12:26:14Z",
+  "dateModified":"2022-10-06T12:26:14Z"
 }
