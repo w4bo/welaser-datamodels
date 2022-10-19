@@ -1,6 +1,6 @@
+import geojson
 import json
 import os
-import geojson
 import re
 
 for root, dirs, files in os.walk("."):
@@ -22,3 +22,7 @@ for root, dirs, files in os.walk("."):
                     assert "actualLocation" in entity
                 if "location" in entity:
                     assert geojson.loads(json.dumps(entity["location"])).is_valid
+                if "controlledProperty" in entity:
+                    known_properties = set(["heartbeat", "temperature", "humidity", "image", "timestamp"])
+                    difference = set(entity["controlledProperty"]).difference(known_properties)
+                    assert (len(difference) == 0), "Unknown properties: " + str(difference)
