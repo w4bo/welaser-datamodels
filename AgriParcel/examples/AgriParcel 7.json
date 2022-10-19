@@ -1,8 +1,8 @@
 {
-  "id": "urn:ngsi-ld:AgriParcel:ea31b02c-61d9-4ca3-b294-34cd07cb9f66",
-  "type": "AgriParcel",
-  "dateCreated": "2022-09-26T15:22:07Z",
-  "dateModified": "2022-09-26T15:22:07Z",
+  "id":"urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac",
+  "type":"AgriParcel",
+  "dateCreated":"2022-10-06T12:26:11Z",
+  "dateModified":"2022-10-06T12:26:11Z",
   "location": {
     "type": "Polygon",
     "coordinates": [
@@ -39,32 +39,27 @@
       "applicationEntityId": ""
     }
   ],
-  "seeAlso": [
-    "https://example.org/concept/agriparcel",
-    "https://datamodel.org/example/agriparcel"
-  ],
-  "belongsTo": "",
-  "ownedBy": "urn:ngsi-ld:Person:fd218375-f20a-407e-8b76-75c860db6759",
-  "hasAgriCrop": "urn:ngsi-ld:AgriCrop:36021150-4474-11e8-a721-af07c5fae7c8",
-  "headlandWidth": 4,
-  "gateLocation": [
-    [
-      -3.480871,
-      40.312532
-    ],
-    [
-      -3.480832,
-      40.312518
+  "seeAlso":[],
+  "belongsTo":"",
+  "ownedBy":"",
+  "hasAgriCrop":[],
+  "headlandWidth":4,
+  "gateLocation":{
+    "type":"MultiPoint",
+    "coordinates":[
+      [
+        -3.480871,
+        40.312532
+      ],
+      [
+        -3.480832,
+        40.312518
+      ]
     ]
-  ],
-  "bearing": 138,
-  "cropStatus": "seeded",
-  "lastPlantedAt": "2016-08-23T10:18:16Z",
-  "hasAgriSoil": "urn:ngsi-ld:AgriSoil:429d1338-4474-11e8-b90a-d3e34ceb73df",
-  "hasDevice": [
-    "urn:ngsi-ld:Device:4a40aeba-4474-11e8-86bf-03d82e958ce6",
-    "urn:ngsi-ld:Device:63217d24-4474-11e8-9da2-c3dd3c36891b",
-    "urn:ngsi-ld:Device:68e091dc-4474-11e8-a398-df010c53b416",
-    "urn:ngsi-ld:6f44b54e-4474-11e8-8577-d7ff6a8ef551"
-  ]
+  },
+  "bearing":154,
+  "cropStatus":"",
+  "lastPlantedAt":"2016-08-23T10:18:16Z",
+  "hasAgriSoil":[],
+  "hasDevice":[]
 }

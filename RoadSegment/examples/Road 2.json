@@ -1,8 +1,8 @@
 {
-  "id": "urn:ngsi-ld:RoadSegment:ec89f9fb-1a13-426c-b11d-8e41aa7d443b",
-  "type": "RoadSegment",
-  "name": "Road OF",
-  "category": [
+  "id":"urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73",
+  "type":"RoadSegment",
+  "name":"Road OF",
+  "category":[
     "oneway"
   ],
   "roadMaterial": "dirt",
@@ -81,6 +81,6 @@
       ]
     ]
   },
-  "dateCreated": "2022-09-26T15:22:10Z",
-  "dateModified": "2022-09-26T15:22:10Z"
+  "dateCreated":"2022-10-06T12:26:14Z",
+  "dateModified":"2022-10-06T12:26:14Z"
 }

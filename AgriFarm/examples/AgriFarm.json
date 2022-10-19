@@ -1,8 +1,8 @@
 {
   "id":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "type":"AgriFarm",
-  "dateCreated":"2022-09-26T15:21:59Z",
-  "dateModified":"2022-09-26T15:21:59Z",
+  "dateCreated":"2022-10-06T12:26:07Z",
+  "dateModified":"2022-10-06T12:26:07Z",
   "name":"Wheat farm @ CAR/CSIC",
   "description":"area of action",
   "relatedSource":[
@@ -11,10 +11,7 @@
       "applicationEntityId":""
     }
   ],
-  "seeAlso":[
-    "https://example.org/concept/farm",
-    "https://datamodel.org/example/farm"
-  ],
+  "seeAlso":[],
   "location":{
     "type":"Point",
     "coordinates":[
@@ -153,34 +150,34 @@
     ]
   },
   "contactPoint":{
-    "email":"ruth",
-    "telephone":"123456"
+    "email":"ruth.cordova@csic.es",
+    "telephone":"+34918711900"
   },
-  "ownedBy":"urn:ngsi-ld:Person:879a66d8-a13d-4b47-8cc0-a1321df327b3",
+  "ownedBy":"",
   "hasBuilding":[
-    "urn:ngsi-ld:Building:33dec309-dac4-4942-8d2a-09d906fde53c",
-    "urn:ngsi-ld:Building:6009b658-7d5d-4f70-8b89-49248b861039",
-    "urn:ngsi-ld:Building:cbf37586-a8dc-42c2-9c83-15fd6e2af7a8",
-    "urn:ngsi-ld:Building:65f66fc5-2c28-48ad-843e-8d6f9964a0eb"
+    "urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
+    "urn:ngsi-ld:Building:592c65d3-4bab-4cd8-9113-5bb821599d00",
+    "urn:ngsi-ld:Building:693ef177-41e5-4e29-b485-db68a0735b07",
+    "urn:ngsi-ld:Building:dd4cf746-d622-4284-a722-538550266002"
   ],
   "hasAgriParcel":[
-    "urn:ngsi-ld:AgriParcel:40042a8e-a754-4f4a-9505-fca433bc8897",
-    "urn:ngsi-ld:AgriParcel:4a3f84b4-ac15-4e3e-900c-2038f9c8c5eb",
-    "urn:ngsi-ld:AgriParcel:6b5cc3e5-46ad-46c6-805b-4225d52091af",
-    "urn:ngsi-ld:AgriParcel:9d90016c-4ad2-4e2d-a0ce-5b84f8c8a208",
-    "urn:ngsi-ld:AgriParcel:2c89a23c-98e1-4258-84df-1c4fabd3c367",
-    "urn:ngsi-ld:AgriParcel:41422c6d-dfef-4c8e-9815-0325fb7206fb",
-    "urn:ngsi-ld:AgriParcel:fc1ac3cc-a8f5-42cf-8a1f-f4d12d7f5dc7",
-    "urn:ngsi-ld:AgriParcel:1a74ca18-41f8-40a5-9349-8d5ba6189f00",
-    "urn:ngsi-ld:AgriParcel:ea31b02c-61d9-4ca3-b294-34cd07cb9f66"
+    "urn:ngsi-ld:AgriParcel:ce109a14-09a3-48a9-90e1-e76b61dee0fd",
+    "urn:ngsi-ld:AgriParcel:04486193-afd7-44f8-a32e-fee883dde8f8",
+    "urn:ngsi-ld:AgriParcel:384d274d-171e-43c2-b351-d29465837270",
+    "urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
+    "urn:ngsi-ld:AgriParcel:76875a84-18fe-4b20-b24b-21a44cbeaf2e",
+    "urn:ngsi-ld:AgriParcel:9b194447-c996-416a-bd50-8217204c1edb",
+    "urn:ngsi-ld:AgriParcel:f34d578b-73bd-4168-b5c7-ddcc5f9dd276",
+    "urn:ngsi-ld:AgriParcel:76f6ee82-76d0-492a-9ed3-f167ef1c1493",
+    "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac"
   ],
   "hasRestrictedTrafficArea":[
-    "urn:ngsi-ld:RestrictedTrafficArea:bbb2dece-62f8-438d-8759-09e88442c3fe",
-    "urn:ngsi-ld:RestrictedTrafficArea:07c23a9b-f722-495f-8792-b3d01201e088",
-    "urn:ngsi-ld:RestrictedTrafficArea:68c1b163-d957-422e-b7a6-9dcaee0d7bd1"
+    "urn:ngsi-ld:RestrictedTrafficArea:92dfe118-c698-408f-b688-e99a8d37970b",
+    "urn:ngsi-ld:RestrictedTrafficArea:07788064-5ea2-4cbf-b19f-e93fa064731c",
+    "urn:ngsi-ld:RestrictedTrafficArea:0414162e-4575-4ebd-b0e7-a0459a81fa05"
   ],
   "hasRoadSegment":[
-    "urn:ngsi-ld:RoadSegment:65fe5dd5-b99b-48f5-b32f-0184f2b3f46a",
-    "urn:ngsi-ld:RoadSegment:ec89f9fb-1a13-426c-b11d-8e41aa7d443b"
+    "urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
+    "urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73"
   ]
 }
