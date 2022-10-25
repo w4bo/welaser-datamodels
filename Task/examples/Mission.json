@@ -129,8 +129,7 @@
                     ]
                 ]
             ]
-        },
-        "coordinates": []
+        }
     },
     "hasPlannedTaskChildren": [
         "urn:ngsi-ld:Task:0fa83195-267f-417a-bba5-131967697936",
