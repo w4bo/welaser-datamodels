@@ -42,7 +42,7 @@
     "urn:ngsi-ld:Task:67c15105-0de0-4897-be35-72238213fea3"
   ],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+
   "actualBeginTime":"2012-04-13T10:52:00Z",
   "actualEndTime":"2012-04-13T10:57:00Z",
   "status":"planned",
