@@ -13,11 +13,7 @@
     "hasImplement": [
         "laser-123"
     ],
-    "hasDevice": [
-        "camera1",
-        "camera2",
-        "therm1"
-    ],
+    "hasDevice": [],
     "status": [
         "on",
         "off",
