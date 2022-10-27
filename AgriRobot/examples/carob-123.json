@@ -13,11 +13,7 @@
     "hasImplement": [
         "laser-123"
     ],
-    "hasDevice": [
-        "camera1",
-        "camera2",
-        "therm1"
-    ],
+    "hasDevice": [],
     "status": [
         "on",
         "off",
@@ -36,12 +32,10 @@
     "bearing": 1,
     "heading": 1,
     "cmdList": [
-        "executemission",
+        "execute_mission",
         "pause",
         "resume",
-        "stop"
+        "abort"
     ],
-    "cmd": {
-        "stop": {}
-    }
+    "cmd": {}
 }
