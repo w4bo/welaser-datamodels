@@ -36,12 +36,10 @@
     "bearing": 1,
     "heading": 1,
     "cmdList": [
-        "executemission",
+        "execute_mission",
         "pause",
         "resume",
-        "stop"
+        "abort"
     ],
-    "cmd": {
-        "stop": {}
-    }
+    "cmd": {}
 }
