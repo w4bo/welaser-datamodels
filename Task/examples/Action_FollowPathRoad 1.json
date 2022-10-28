@@ -1,7 +1,7 @@
 {
   "id":"urn:ngsi-ld:Task:7c3e9298-01fc-4596-82c1-b81dce3b44be",
   "type":"Task",
-  "goal":"Automatically weeding an Field",
+  "goal":"Follow Path 1",
   "taskType":"Action",
   "name":"Weeding with HPL",
   "hasAgriRobot":"carob-123",
