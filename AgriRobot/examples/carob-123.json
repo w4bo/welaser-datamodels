@@ -52,7 +52,7 @@
         "resume",
         "abort"
     ],
-    "error":"",
-    "warning":"",
+    "error": [],
+    "warning": [],
     "cmd": {}
 }
