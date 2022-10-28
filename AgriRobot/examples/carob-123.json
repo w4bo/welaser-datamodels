@@ -52,5 +52,7 @@
         "resume",
         "abort"
     ],
+    "error":"",
+    "warning":"",
     "cmd": {}
 }
