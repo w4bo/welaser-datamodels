@@ -3,6 +3,7 @@ import json
 import os
 import re
 
+names = {}
 for root, dirs, files in os.walk("."):
     for file in sorted(filter(lambda f: f.endswith('.json'), files)):
         path = os.path.join(root, file)
@@ -20,11 +21,15 @@ for root, dirs, files in os.walk("."):
                     assert not key.startswith(" ") and not key.endswith(" "), {"id": entity["id"], key: value}
                     assert not str(value).startswith(" ") and not str(value).endswith(" "), {"id": entity["id"], key: value}
                     assert not regexp.search(str(value)), {"id": entity["id"], key: value}
-                if "Task" in path:
+                    if "location" in key.lower():
+                        assert geojson.loads(json.dumps(entity[key])).is_valid, {"id": entity["id"], key: value}
+                if "name" in entity:
+                    assert entity["name"] not in names, "Entities with duplicated names " + names[entity["name"]] + " and " + path
+                    names[entity["name"]] = path
+                if entity["type"] == "Task" and entity["taskType"] == "Mission":
                     assert "actualLocation" in entity
-                if "location" in entity:
-                    assert geojson.loads(json.dumps(entity["location"])).is_valid
                 if "controlledProperty" in entity:
                     known_properties = set(["heartbeat", "temperature", "humidity", "image", "timestamp"])
                     difference = set(entity["controlledProperty"]).difference(known_properties)
                     assert (len(difference) == 0), "Unknown properties: " + str(difference)
+print(names)
