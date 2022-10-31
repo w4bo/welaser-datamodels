@@ -3,7 +3,7 @@
     "type": "Task",
     "goal": "Continue Action",
     "taskType": "Action",
-    "name": "FollowPath",
+    "name": "FollowPath Return to Road 2",
     "hasAgriRobot": "carob-123",
     "hasWorkingArea": "urn:ngsi-ld:RoadSegment:255e744b-ba72-4a96-b58f-759bebe72810",
     "workingAreaType": "Road OF",
