@@ -3,7 +3,7 @@
   "type":"Task",
   "goal":"Continue Action",
   "taskType":"Action",
-  "name":"MoveTo",
+  "name":"MoveTo Gate 1",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"Gate",
   "workingAreaType":"gate",
