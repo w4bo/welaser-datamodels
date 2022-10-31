@@ -3,7 +3,7 @@
   "type": "Task",
   "goal": "Follow Path 2",
   "taskType": "Action",
-  "name": "Weeding with HPL",
+  "name": "FollowPath Road 2",
   "hasAgriRobot": "carob-123",
   "hasWorkingArea": [],
   "workingAreaType": [],
