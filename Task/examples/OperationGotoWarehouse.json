@@ -3,7 +3,7 @@
   "type":"Task",
   "goal":"Automatically weeding an Field",
   "taskType":"Operation",
-  "name":"GoToWareHouse",
+  "name":"GoTo Building 1 - WareHouse",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":[
     "urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e"
