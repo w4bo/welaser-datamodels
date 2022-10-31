@@ -3,7 +3,7 @@
     "type": "Task",
     "goal": "Automatically weeding an Field",
     "taskType": "Action",
-    "name": "Weeding with HPL",
+    "name": "MoveTo Gate 2",
     "hasAgriRobot": "carob-123",
     "hasWorkingArea": [],
     "workingAreaType": [],
