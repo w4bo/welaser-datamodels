@@ -1,9 +1,9 @@
 {
     "id": "urn:ngsi-ld:Task:d50ec8b0-9719-45ab-8ab8-a831e4d341c2",
     "type": "Task",
-    "goal": "Automatically weeding an Field",
+    "goal": "MoveTo AgriParcel 1",
     "taskType": "Action",
-    "name": "Weeding with HPL",
+    "name": "MoveTo AgriParcel 1",
     "hasAgriRobot": "carob-123",
     "hasWorkingArea": [],
     "workingAreaType": [],
