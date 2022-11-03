@@ -26,6 +26,10 @@ for root, dirs, files in os.walk("."):
                 if "name" in entity:
                     assert entity["name"] not in names, "Entities with duplicated names " + names[entity["name"]] + " and " + path
                     names[entity["name"]] = path
+
+                assert entity["id"] not in names, "Entities with duplicated ids " + names[entity["id"]] + " and " + path
+                names[entity["id"]] = path
+
                 if entity["type"] == "Task" and entity["taskType"] == "Mission":
                     assert "actualLocation" in entity
                 if "controlledProperty" in entity:
