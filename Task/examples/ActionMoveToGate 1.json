@@ -1,19 +1,19 @@
 {
-  "id":"urn:ngsi-ld:Task:1b6b127f-1f5c-429c-804d-e3812af5730e",
+  "id":"urn:ngsi-ld:Task:f64339d1-5c07-4495-9c72-59a67bddc577",
   "type":"Task",
   "goal":"Continue Action",
   "taskType":"Action",
-  "name":"MoveTo",
+  "name":"MoveTo Gate 1",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:RoadSegment:255e744b-ba72-4a96-b58f-759bebe72810",
-  "workingAreaType":"RoadSegment",
+  "hasWorkingArea":"Gate",
+  "workingAreaType":"gate",
   "plannedBeginTime":[],
   "plannedEndTime":[],
   "plannedSpeed":0.55,
   "plannedLocation":[
     [
-      40.3126691844176,
-      -3.480754941701889
+      40.3126585,
+      -3.480769
     ]
   ],
   "hasPlannedTaskChildren":[],
