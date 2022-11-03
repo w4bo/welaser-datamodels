@@ -1,19 +1,19 @@
 {
-  "id":"urn:ngsi-ld:Task:f64339d1-5c07-4495-9c72-59a67bddc577",
+  "id":"urn:ngsi-ld:Task:5c37be15-4a64-40bd-b13b-5af5b94827a9",
   "type":"Task",
   "goal":"Continue Action",
   "taskType":"Action",
-  "name":"MoveTo",
+  "name":"MoveTo Return to Building 1",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"Gate",
-  "workingAreaType":"gate",
+  "hasWorkingArea":"urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e",
+  "workingAreaType":"Building",
   "plannedBeginTime":[],
   "plannedEndTime":[],
   "plannedSpeed":0.55,
   "plannedLocation":[
     [
-      40.3126585,
-      -3.480769
+      40.31320641281282,
+      -3.48264606287599
     ]
   ],
   "hasPlannedTaskChildren":[],

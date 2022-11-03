@@ -1,19 +1,19 @@
 {
-  "id":"urn:ngsi-ld:Task:5c37be15-4a64-40bd-b13b-5af5b94827a9",
+  "id":"urn:ngsi-ld:Task:1b6b127f-1f5c-429c-804d-e3812af5730e",
   "type":"Task",
   "goal":"Continue Action",
   "taskType":"Action",
-  "name":"MoveTo",
+  "name":"MoveTo Return to Road 2",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e",
-  "workingAreaType":"Building",
+  "hasWorkingArea":"urn:ngsi-ld:RoadSegment:255e744b-ba72-4a96-b58f-759bebe72810",
+  "workingAreaType":"RoadSegment",
   "plannedBeginTime":[],
   "plannedEndTime":[],
   "plannedSpeed":0.55,
   "plannedLocation":[
     [
-      40.31320641281282,
-      -3.48264606287599
+      40.3126691844176,
+      -3.480754941701889
     ]
   ],
   "hasPlannedTaskChildren":[],
