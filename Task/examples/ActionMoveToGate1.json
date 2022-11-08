@@ -1,26 +1,27 @@
 {
-  "id":"urn:ngsi-ld:Task:f64339d1-5c07-4495-9c72-59a67bddc577",
+  "id":"urn:ngsi-ld:Task:68f41a8c-5440-45b0-8dec-f3520cf95b18",
   "type":"Task",
-  "goal":"Continue Action",
+  "goal":"MoveTo in Gate @ Wheat farm @ CAR/CSIC",
   "taskType":"Action",
-  "name":"MoveTo Gate 1",
+  "name":"Action MoveTo in Gate @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"Gate",
   "workingAreaType":"gate",
   "plannedBeginTime":[],
   "plannedEndTime":[],
   "plannedSpeed":0.55,
-  "plannedLocation":[
-    [
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
       40.3126585,
       -3.480769
     ]
-  ],
+  },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-
-  "actualBeginTime":"2012-04-13T10:52:00Z",
-  "actualEndTime":"2012-04-13T10:57:00Z",
+  "actualLocation":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
   "status":"planned",
   "result":[],
   "event":""

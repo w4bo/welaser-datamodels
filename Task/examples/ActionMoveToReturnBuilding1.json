@@ -1,15 +1,15 @@
 {
-  "id":"urn:ngsi-ld:Task:0b1aad7f-103a-4a4f-a98d-2f8e0bf46278",
+  "id":"urn:ngsi-ld:Task:ef1a84a4-b936-484b-bdfd-669e83148700",
   "type":"Task",
-  "goal":"Wakeup in Building C @ Wheat farm @ CAR/CSIC",
-  "taskType":"Operation",
-  "name":"Operation Wakeup in Building C @ Wheat farm @ CAR/CSIC",
+  "goal":"MoveTo in Building C @ Wheat farm @ CAR/CSIC",
+  "taskType":"Action",
+  "name":"Action MoveTo in Building C @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:Building:04ea9f36-9651-4df0-918a-6586a558a3b1",
-  "workingAreaType":"Building C",
-  "plannedBeginTime":"2022-11-08T11:02:20Z",
-  "plannedEndTime":"2022-11-08T11:07:20Z",
-  "plannedSpeed":[],
+  "workingAreaType":"Building",
+  "plannedBeginTime":[],
+  "plannedEndTime":[],
+  "plannedSpeed":0.55,
   "plannedLocation":{
     "type":"Point",
     "coordinates":[

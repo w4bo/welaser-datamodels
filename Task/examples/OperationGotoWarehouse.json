@@ -1,54 +1,33 @@
 {
-  "id":"urn:ngsi-ld:Task:c6c6f2ed-056b-44a9-94b6-ff093564334f",
+  "id":"urn:ngsi-ld:Task:c09ddc0e-0aec-4450-9edf-818d631f7870",
   "type":"Task",
-  "goal":"Automatically weeding an Field",
+  "goal":"GoToWareHouse in Building C @ Wheat farm @ CAR/CSIC",
   "taskType":"Operation",
-  "name":"GoTo Building 1 - WareHouse",
+  "name":"Operation GoToWareHouse in Building C @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":[
-    "urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e"
-  ],
-  "workingAreaType":[
-    "Building C"
-  ],
-  "plannedBeginTime":"2022-09-29T09:52:31Z",
-  "plannedEndTime":"2022-09-29T10:08:31Z",
+  "hasWorkingArea":"urn:ngsi-ld:Building:04ea9f36-9651-4df0-918a-6586a558a3b1",
+  "workingAreaType":"Building C",
+  "plannedBeginTime":"2022-11-08T11:58:20Z",
+  "plannedEndTime":"2022-11-08T12:14:20Z",
   "plannedSpeed":0.55,
-  "plannedLocation":[
-    [
-      [
-        40.31326409453562,
-        -3.4828088432550426
-      ],
-      [
-        40.31311044614164,
-        -3.482774645090103
-      ],
-      [
-        40.31315007263277,
-        -3.48248228430748
-      ],
-      [
-        40.31330142004943,
-        -3.4825171530246735
-      ],
-      [
-        40.31326409453562,
-        -3.4828088432550426
-      ]
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      40.31320641281282,
+      -3.48264606287599
     ]
-  ],
+  },
   "hasPlannedTaskChildren":[
-    "urn:ngsi-ld:Task:645d4c77-fe83-4878-83ec-431a1a2df1b3",
-    "urn:ngsi-ld:Task:1b6b127f-1f5c-429c-804d-e3812af5730e",
-    "urn:ngsi-ld:Task:d51e7585-d981-4b59-973e-5ca21d5c790e",
-    "urn:ngsi-ld:Task:16f0d9a5-4713-4b30-87cd-a37f2b849009",
-    "urn:ngsi-ld:Task:5c37be15-4a64-40bd-b13b-5af5b94827a9"
+    "urn:ngsi-ld:Task:1dc533d1-15e2-45b9-9e02-32d3a027c047",
+    "urn:ngsi-ld:Task:5c92f094-a64f-4475-9307-88300cb99f6d",
+    "urn:ngsi-ld:Task:d703a328-eedd-4eb6-92cc-5153a0a7e042",
+    "urn:ngsi-ld:Task:cdbed521-e7d0-4adc-ab98-b2a7aa91965b",
+    "urn:ngsi-ld:Task:ef1a84a4-b936-484b-bdfd-669e83148700"
   ],
   "hasExecutedTaskChildren":[],
-
-  "actualBeginTime":"2012-04-13T10:52:00Z",
-  "actualEndTime":"2012-04-13T10:57:00Z",
+  "actualLocation":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
   "status":"planned",
   "result":[],
   "event":""

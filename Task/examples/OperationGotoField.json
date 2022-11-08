@@ -1,50 +1,33 @@
 {
-  "id":"urn:ngsi-ld:Task:5eb8d99a-9375-40e9-b135-546fb7121a34",
+  "id":"urn:ngsi-ld:Task:29d5835e-d4dd-431a-b556-47a8da7eba8d",
   "type":"Task",
-  "goal":"Field",
+  "goal":"GoToFIeld in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
   "taskType":"Operation",
-  "name":"GoTo AgriParcel 1",
+  "name":"Operation GoToField in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "workingAreaType":"AgriFarm",
-  "plannedBeginTime":"2022-09-29T09:01:31Z",
-  "plannedEndTime":"2022-09-29T09:17:31Z",
+  "plannedBeginTime":"2022-11-08T11:07:20Z",
+  "plannedEndTime":"2022-11-08T11:23:20Z",
   "plannedSpeed":0.55,
-  "plannedLocation":[
-    [
-      [
-        40.31326409453562,
-        -3.4828088432550426
-      ],
-      [
-        40.31311044614164,
-        -3.482774645090103
-      ],
-      [
-        40.31315007263277,
-        -3.48248228430748
-      ],
-      [
-        40.31330142004943,
-        -3.4825171530246735
-      ],
-      [
-        40.31326409453562,
-        -3.4828088432550426
-      ]
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      40.31320641281282,
+      -3.48264606287599
     ]
-  ],
+  },
   "hasPlannedTaskChildren":[
-    "urn:ngsi-ld:Task:b5210872-0451-4e4e-8292-7fe99a61e49c",
-    "urn:ngsi-ld:Task:5d937315-3835-43b0-86f3-406618a2943b",
-    "urn:ngsi-ld:Task:de804afd-147e-4860-ae35-daa0ead0e544",
-    "urn:ngsi-ld:Task:f64339d1-5c07-4495-9c72-59a67bddc577",
-    "urn:ngsi-ld:Task:67c15105-0de0-4897-be35-72238213fea3"
+    "urn:ngsi-ld:Task:4e952137-1b87-4f4a-9dea-151414f90eea",
+    "urn:ngsi-ld:Task:c403c80d-febc-4a11-af89-1393a03ac19d",
+    "urn:ngsi-ld:Task:1f616318-1072-43d1-b3c7-7744ccfe2561",
+    "urn:ngsi-ld:Task:68f41a8c-5440-45b0-8dec-f3520cf95b18",
+    "urn:ngsi-ld:Task:004defe1-ff5f-44ba-abc9-6042b67b8e8a"
   ],
   "hasExecutedTaskChildren":[],
-
-  "actualBeginTime":"2012-04-13T10:52:00Z",
-  "actualEndTime":"2012-04-13T10:57:00Z",
+  "actualLocation":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
   "status":"planned",
   "result":[],
   "event":""

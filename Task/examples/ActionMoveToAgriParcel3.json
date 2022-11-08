@@ -1,0 +1,25 @@
+{
+  "id":"urn:ngsi-ld:Task:004defe1-ff5f-44ba-abc9-6042b67b8e8a",
+  "type":"Task",
+  "goal":"MoveTo in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
+  "taskType":"Action",
+  "name":"Action MoveTo in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
+  "hasAgriRobot":"carob-123",
+  "hasWorkingArea":"urn:ngsi-ld:AgriParcel:0611d998-82b1-48ab-bad9-9512600cfa8c",
+  "workingAreaType":"AgriParcel",
+  "plannedBeginTime":[],
+  "plannedEndTime":[],
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualLocation":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}

@@ -1,0 +1,28 @@
+{
+  "id":"urn:ngsi-ld:Task:5c92f094-a64f-4475-9307-88300cb99f6d",
+  "type":"Task",
+  "goal":"MoveTo in Road OF @ Wheat farm @ CAR/CSIC",
+  "taskType":"Action",
+  "name":"Action MoveTo in Road OF @ Wheat farm @ CAR/CSIC",
+  "hasAgriRobot":"carob-123",
+  "hasWorkingArea":"urn:ngsi-ld:RoadSegment:ec24dd7d-7cdc-4fba-b40a-98b0b571a369",
+  "workingAreaType":"RoadSegment",
+  "plannedBeginTime":[],
+  "plannedEndTime":[],
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      40.3126691844176,
+      -3.480754941701889
+    ]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualLocation":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
