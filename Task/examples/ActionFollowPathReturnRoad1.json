@@ -3,7 +3,7 @@
   "type":"Task",
   "goal":"FollowPath in Road M @ Wheat farm @ CAR/CSIC",
   "taskType":"Action",
-  "name":"Action FollowPath in Road M @ Wheat farm @ CAR/CSIC",
+  "name":"Action FollowPath Return in Road M @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:RoadSegment:ee7213a6-a835-464d-a85f-78a97acdd4f3",
   "workingAreaType":"Road M",
