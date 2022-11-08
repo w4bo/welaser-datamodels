@@ -15,7 +15,7 @@ jobs:
           submodules: recursive
       - uses: actions/setup-python@v4
         with:
-          python-version: '3.8.10'
+          python-version: '3.11.0'
           architecture: 'x64'
       - name: Check json documents
         run: |
