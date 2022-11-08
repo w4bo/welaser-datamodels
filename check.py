@@ -22,6 +22,8 @@ for root, dirs, files in os.walk("."):
                     assert not str(value).startswith(" ") and not str(value).endswith(" "), {"id": entity["id"], key: value}
                     assert not regexp.search(str(value)), {"id": entity["id"], key: value}
                     if "location" in key.lower():
+                        out = geojson.loads(json.dumps(entity[key])).is_valid
+                        print(out['message'])
                         assert geojson.loads(json.dumps(entity[key])).is_valid, {"id": entity["id"], key: value}
                 if "name" in entity:
                     assert entity["name"] not in names, "Entities with duplicated names " + names[entity["name"]] + " and " + path
