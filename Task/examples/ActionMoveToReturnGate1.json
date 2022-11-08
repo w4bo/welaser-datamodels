@@ -3,7 +3,7 @@
   "type":"Task",
   "goal":"MoveTo in Gate @ Wheat farm @ CAR/CSIC",
   "taskType":"Action",
-  "name":"Action MoveTo in Gate @ Wheat farm @ CAR/CSIC",
+  "name":"Action MoveTo Return in Gate @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"Gate",
   "workingAreaType":"gate",
