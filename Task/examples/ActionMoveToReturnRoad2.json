@@ -3,7 +3,7 @@
   "type":"Task",
   "goal":"MoveTo in Road OF @ Wheat farm @ CAR/CSIC",
   "taskType":"Action",
-  "name":"Action MoveTo in Road OF @ Wheat farm @ CAR/CSIC",
+  "name":"Action MoveTo Return in Road OF @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:RoadSegment:ec24dd7d-7cdc-4fba-b40a-98b0b571a369",
   "workingAreaType":"RoadSegment",
