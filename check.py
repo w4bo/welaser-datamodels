@@ -25,7 +25,8 @@ for root, dirs, files in os.walk("."):
                         try:
                             assert geojson.loads(json.dumps(entity[key])).is_valid, {"id": entity["id"], key: value}
                         except:
-                             print('Assertion in:' + entity["id"] + ' . Atribute: ' + key)
+                            print('Assertion in:' + entity["id"] + ' . Atribute: ' + key)
+                            sys.exit(1)
                 if "name" in entity:
                     assert entity["name"] not in names, "Entities with duplicated names " + names[entity["name"]] + " and " + path
                     names[entity["name"]] = path
