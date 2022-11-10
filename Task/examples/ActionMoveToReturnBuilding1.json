@@ -1,9 +1,9 @@
 {
-  "id":"urn:ngsi-ld:Task:ef1a84a4-b936-484b-bdfd-669e83148700",
+  "id":"urn:ngsi-ld:Task:8351624f-0703-46a2-baa3-f02b35562980",
   "type":"Task",
-  "goal":"MoveTo in Building C @ Wheat farm @ CAR/CSIC",
+  "name":"Action MoveTo Return in Building C @ Farm WeLASER Arganda del Rey",
+  "goal":"MoveTo Return in Building C @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
-  "name":"Action MoveTo Return in Building C @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:Building:04ea9f36-9651-4df0-918a-6586a558a3b1",
   "workingAreaType":"Building",
@@ -19,7 +19,10 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

@@ -1,19 +1,25 @@
 {
-  "id":"urn:ngsi-ld:Task:ecac669e-a4a0-4683-9996-f7eb5f6fa70e",
+  "id":"urn:ngsi-ld:Task:2001bf71-3b0f-4afc-8d25-20b1ca64539d",
   "type":"Task",
-  "goal":"Treatment in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
+  "name":"Operation Treatment in Field 3 beetroot @ Farm WeLASER Arganda del Rey",
+  "goal":"Treatment in Field 3 beetroot @ Farm WeLASER Arganda del Rey",
   "taskType":"Operation",
-  "name":"Operation Treatment in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:AgriParcel:0611d998-82b1-48ab-bad9-9512600cfa8c",
   "workingAreaType":"AgriParcel 3",
-  "plannedBeginTime":"2022-11-08T11:23:20Z",
-  "plannedEndTime":"2022-11-08T11:58:20Z",
+  "plannedBeginTime":"2022-11-08T16:45:09Z",
+  "plannedEndTime":"2022-11-08T17:20:09Z",
   "plannedSpeed":0.55,
-  "plannedLocation":"",
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

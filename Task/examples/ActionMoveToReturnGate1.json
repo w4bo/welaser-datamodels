@@ -1,9 +1,9 @@
 {
-  "id":"urn:ngsi-ld:Task:1dc533d1-15e2-45b9-9e02-32d3a027c047",
+  "id":"urn:ngsi-ld:Task:c9f2068c-2abf-4969-a713-84ee5eafde11",
   "type":"Task",
-  "goal":"MoveTo in Gate @ Wheat farm @ CAR/CSIC",
+  "name":"Action MoveTo Return in Gate @ Farm WeLASER Arganda del Rey",
+  "goal":"MoveTo Return in Gate @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
-  "name":"Action MoveTo Return in Gate @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"Gate",
   "workingAreaType":"gate",
@@ -19,7 +19,10 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

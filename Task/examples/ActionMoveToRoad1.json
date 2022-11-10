@@ -1,9 +1,9 @@
 {
-  "id":"urn:ngsi-ld:Task:4e952137-1b87-4f4a-9dea-151414f90eea",
+  "id":"urn:ngsi-ld:Task:7ef709f6-f4f8-49bd-ac41-4f5d1dd36838",
   "type":"Task",
-  "goal":"MoveTo in Road M @ Wheat farm @ CAR/CSIC",
+  "name":"Action MoveTo in Road M @ Farm WeLASER Arganda del Rey",
+  "goal":"MoveTo in Road M @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
-  "name":"Action MoveTo in Road M @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:RoadSegment:ee7213a6-a835-464d-a85f-78a97acdd4f3",
   "workingAreaType":"RoadSegment",
@@ -19,7 +19,10 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

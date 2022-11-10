@@ -1,9 +1,9 @@
 {
-  "id":"urn:ngsi-ld:Task:004defe1-ff5f-44ba-abc9-6042b67b8e8a",
+  "id":"urn:ngsi-ld:Task:ea751848-d628-4cd0-9517-df185ab37c83",
   "type":"Task",
-  "goal":"MoveTo in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
+  "name":"Action MoveTo in Field 3 beetroot @ Farm WeLASER Arganda del Rey",
+  "goal":"MoveTo in Field 3 beetroot @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
-  "name":"Action MoveTo in Field 3 beetroot @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:AgriParcel:0611d998-82b1-48ab-bad9-9512600cfa8c",
   "workingAreaType":"AgriParcel",
@@ -16,7 +16,10 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

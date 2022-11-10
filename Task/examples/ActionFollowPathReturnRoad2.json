@@ -1,9 +1,9 @@
 {
-  "id":"urn:ngsi-ld:Task:d703a328-eedd-4eb6-92cc-5153a0a7e042",
+  "id":"urn:ngsi-ld:Task:e8ff2a10-06d7-4e54-9c96-8ec431b2851c",
   "type":"Task",
-  "goal":"FollowPath in Road OF @ Wheat farm @ CAR/CSIC",
+  "name":"Action FollowPath Return in Road OF @ Farm WeLASER Arganda del Rey",
+  "goal":"FollowPath Return in Road OF @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
-  "name":"Action FollowPath Return in Road OF @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:RoadSegment:ec24dd7d-7cdc-4fba-b40a-98b0b571a369",
   "workingAreaType":"Road OF",
@@ -65,7 +65,10 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"LineString",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

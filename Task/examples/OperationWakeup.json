@@ -1,14 +1,14 @@
 {
-  "id":"urn:ngsi-ld:Task:0b1aad7f-103a-4a4f-a98d-2f8e0bf46278",
+  "id":"urn:ngsi-ld:Task:aa7c97d3-51cd-4095-8d37-00af8ce29510",
   "type":"Task",
-  "goal":"Wakeup in Building C @ Wheat farm @ CAR/CSIC",
+  "name":"Operation Wakeup in Building C @ Farm WeLASER Arganda del Rey",
+  "goal":"Wakeup in Building C @ Farm WeLASER Arganda del Rey",
   "taskType":"Operation",
-  "name":"Operation Wakeup in Building C @ Wheat farm @ CAR/CSIC",
   "hasAgriRobot":"carob-123",
   "hasWorkingArea":"urn:ngsi-ld:Building:04ea9f36-9651-4df0-918a-6586a558a3b1",
   "workingAreaType":"Building C",
-  "plannedBeginTime":"2022-11-08T11:02:20Z",
-  "plannedEndTime":"2022-11-08T11:07:20Z",
+  "plannedBeginTime":"2022-11-08T16:24:09Z",
+  "plannedEndTime":"2022-11-08T16:29:09Z",
   "plannedSpeed":[],
   "plannedLocation":{
     "type":"Point",
@@ -19,7 +19,10 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":[],
+  "actualLocation":{
+    "type":"Point",
+    "coordinates":[]
+  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",
