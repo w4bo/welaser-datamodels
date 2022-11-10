@@ -2,6 +2,7 @@ import geojson
 import json
 import os
 import re
+import sys
 
 names = {}
 for root, dirs, files in os.walk("."):
