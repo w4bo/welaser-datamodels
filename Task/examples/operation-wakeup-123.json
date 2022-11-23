@@ -3,7 +3,7 @@
     "type": "Task",
     "goal": "The robot will weed parcel-123",
     "taskType": "Operation",
-    "name": "Weeding",
+    "name": "Weeding wakeup",
     "hasAgriRobot": "carob-123",
     "hasWorkingArea": "agriparcel-123",
     "workingAreaType": "AgriParcel",

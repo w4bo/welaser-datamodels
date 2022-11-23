@@ -2,6 +2,7 @@ import geojson
 import json
 import os
 import re
+import sys
 
 names = {}
 for root, dirs, files in os.walk("."):
@@ -22,7 +23,14 @@ for root, dirs, files in os.walk("."):
                     assert not str(value).startswith(" ") and not str(value).endswith(" "), {"id": entity["id"], key: value}
                     assert not regexp.search(str(value)), {"id": entity["id"], key: value}
                     if "location" in key.lower():
-                        assert geojson.loads(json.dumps(entity[key])).is_valid, {"id": entity["id"], key: value}
+                        try:
+                            assert geojson.loads(json.dumps(entity[key])).is_valid, {"id": entity["id"], key: value}
+                        except:
+                            print('Assertion in:' + entity["id"] + ' . Atribute: ' + key)
+                            print(entity[key])
+                            if "type" in entity[key] and "coordinates" in entity[key]:
+                                if len(entity[key]["coordinates"]) > 0:
+                                    sys.exit(1)
                 if "name" in entity:
                     assert entity["name"] not in names, "Entities with duplicated names " + names[entity["name"]] + " and " + path
                     names[entity["name"]] = path
