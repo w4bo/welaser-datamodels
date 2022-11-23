@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:6ccead17-7df4-4aac-834a-bd222bc6ad48",
+  "id":"urn:ngsi-ld:AgriParcel:76875a84-18fe-4b20-b24b-21a44cbeaf2e",
   "type":"AgriParcel",
   "dateCreated":"2022-11-04T15:07:50Z",
   "name":"Field 5 wheat",
@@ -41,7 +41,7 @@
     }
   ],
   "seeAlso":[],
-  "belongsTo":"urn:ngsi-ld:AgriParcel:6ccead17-7df4-4aac-834a-bd222bc6ad48",
+  "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
   "hasAgriCrop":"",
   "headlandWidth":4,

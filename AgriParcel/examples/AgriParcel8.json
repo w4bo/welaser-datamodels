@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:18ba0aea-d4ad-48c5-8a1c-49d64f4f6bac",
+  "id":"urn:ngsi-ld:AgriParcel:76f6ee82-76d0-492a-9ed3-f167ef1c1493",
   "type":"AgriParcel",
   "dateCreated":"2022-11-04T15:07:50Z",
   "name":"Field 8 corn",
@@ -41,7 +41,7 @@
     }
   ],
   "seeAlso":[],
-  "belongsTo":"urn:ngsi-ld:AgriParcel:18ba0aea-d4ad-48c5-8a1c-49d64f4f6bac",
+  "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
   "hasAgriCrop":"",
   "headlandWidth":4,

@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:785a8868-2b59-4bd8-a9ee-551419e315c3",
+  "id":"urn:ngsi-ld:AgriParcel:04486193-afd7-44f8-a32e-fee883dde8f8",
   "type":"AgriParcel",
   "dateCreated":"2022-11-04T15:07:50Z",
   "name":"Field 2 beetroot",
@@ -41,7 +41,7 @@
     }
   ],
   "seeAlso":[],
-  "belongsTo":"urn:ngsi-ld:AgriParcel:785a8868-2b59-4bd8-a9ee-551419e315c3",
+  "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
   "hasAgriCrop":"",
   "headlandWidth":4,

@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:RestrictedTrafficArea:b62c2ef8-cabf-4766-a68f-998e4ff3f648",
+  "id":"urn:ngsi-ld:RestrictedTrafficArea:07788064-5ea2-4cbf-b19f-e93fa064731c",
   "type":"RestrictedTrafficArea",
   "category":"onlyPedestrian",
   "description":"Restricted Area",

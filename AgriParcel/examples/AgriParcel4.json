@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:1cded957-0f3f-42d8-b291-a0db4f3d258a",
+  "id":"urn:ngsi-ld:AgriParcel:9b194447-c996-416a-bd50-8217204c1edb",
   "type":"AgriParcel",
   "dateCreated":"2022-11-04T15:07:50Z",
   "name":"Field 4 wheat",
@@ -41,7 +41,7 @@
     }
   ],
   "seeAlso":[],
-  "belongsTo":"urn:ngsi-ld:AgriParcel:1cded957-0f3f-42d8-b291-a0db4f3d258a",
+  "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
   "hasAgriCrop":"",
   "headlandWidth":4,

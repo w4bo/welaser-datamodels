@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:AgriFarm:73149273-a388-492c-b244-3eb945170eec",
+  "id":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "type":"AgriFarm",
   "dateCreated":"2022-11-04T15:07:40Z",
   "dateModified":"2022-11-04T15:07:40Z",
@@ -155,29 +155,29 @@
   },
   "ownedBy":"",
   "hasBuilding":[
-    "urn:ngsi-ld:Building:04ea9f36-9651-4df0-918a-6586a558a3b1",
-    "urn:ngsi-ld:Building:dc4a6eeb-a305-4fe9-b99a-3d9256e86c8e",
-    "urn:ngsi-ld:Building:294431c8-c0ae-4f90-b18d-7a468d1cd975",
-    "urn:ngsi-ld:Building:e2bf5173-0e66-4e3e-afa6-071ab344b951"
+    "urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
+    "urn:ngsi-ld:Building:592c65d3-4bab-4cd8-9113-5bb821599d00",
+    "urn:ngsi-ld:Building:693ef177-41e5-4e29-b485-db68a0735b07",
+    "urn:ngsi-ld:Building:dd4cf746-d622-4284-a722-538550266002"
   ],
   "hasAgriParcel":[
-    "urn:ngsi-ld:AgriParcel:b6c877db-ea6f-42a6-ad20-5a3cf836e004",
-    "urn:ngsi-ld:AgriParcel:785a8868-2b59-4bd8-a9ee-551419e315c3",
-    "urn:ngsi-ld:AgriParcel:0611d998-82b1-48ab-bad9-9512600cfa8c",
-    "urn:ngsi-ld:AgriParcel:0b46260e-f0e7-4146-8f90-d6509035f350",
-    "urn:ngsi-ld:AgriParcel:6ccead17-7df4-4aac-834a-bd222bc6ad48",
-    "urn:ngsi-ld:AgriParcel:1cded957-0f3f-42d8-b291-a0db4f3d258a",
-    "urn:ngsi-ld:AgriParcel:e94aa361-f9cc-43e3-a1d0-9d2344856913",
-    "urn:ngsi-ld:AgriParcel:18ba0aea-d4ad-48c5-8a1c-49d64f4f6bac",
-    "urn:ngsi-ld:AgriParcel:ce2f80bf-f6bf-47ae-ba24-09e1e538e2c9"
+    "urn:ngsi-ld:AgriParcel:ce109a14-09a3-48a9-90e1-e76b61dee0fd",
+    "urn:ngsi-ld:AgriParcel:04486193-afd7-44f8-a32e-fee883dde8f8",
+    "urn:ngsi-ld:AgriParcel:384d274d-171e-43c2-b351-d29465837270",
+    "urn:ngsi-ld:AgriParcel:9b194447-c996-416a-bd50-8217204c1edb",
+    "urn:ngsi-ld:AgriParcel:76875a84-18fe-4b20-b24b-21a44cbeaf2e",
+    "urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
+    "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac",
+    "urn:ngsi-ld:AgriParcel:76f6ee82-76d0-492a-9ed3-f167ef1c1493",
+    "urn:ngsi-ld:AgriParcel:f34d578b-73bd-4168-b5c7-ddcc5f9dd276"
   ],
   "hasRestrictedTrafficArea":[
-    "urn:ngsi-ld:RestrictedTrafficArea:d2bd095d-ac7c-41a7-aef7-559b90b920c2",
-    "urn:ngsi-ld:RestrictedTrafficArea:b62c2ef8-cabf-4766-a68f-998e4ff3f648",
-    "urn:ngsi-ld:RestrictedTrafficArea:b19f6d26-db39-4090-9584-2e7c752747e5"
+    "urn:ngsi-ld:RestrictedTrafficArea:92dfe118-c698-408f-b688-e99a8d37970b",
+    "urn:ngsi-ld:RestrictedTrafficArea:07788064-5ea2-4cbf-b19f-e93fa064731c",
+    "urn:ngsi-ld:RestrictedTrafficArea:0414162e-4575-4ebd-b0e7-a0459a81fa05"
   ],
   "hasRoadSegment":[
-    "urn:ngsi-ld:RoadSegment:ee7213a6-a835-464d-a85f-78a97acdd4f3",
-    "urn:ngsi-ld:RoadSegment:ec24dd7d-7cdc-4fba-b40a-98b0b571a369"
+    "urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
+    "urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73"
   ]
 }
