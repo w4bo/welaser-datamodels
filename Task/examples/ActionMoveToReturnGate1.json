@@ -1,7 +1,7 @@
 {
   "id":"urn:ngsi-ld:Task:bde59bf7-6257-42fd-9b49-b74510f469ac",
   "type":"Task",
-  "name":"Action MoveTo Return in Gate @ Farm WeLASER Arganda del Rey",
+  "name":"Action MoveTo Return in Gate 1 @ Farm WeLASER Arganda del Rey",
   "goal":"MoveTo Return in Gate @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
   "hasAgriRobot":"carob-123",
