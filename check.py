@@ -21,7 +21,7 @@ for root, dirs, files in os.walk("."):
                     assert not str(value).startswith(" ") and not str(value).endswith(" "), {"id": entity["id"], key: value}
                     assert not regexp.search(str(value)), {"id": entity["id"], key: value}
                 if "Task" in path:
-                    assert "actualLocation" in entity
+                    assert "actualLocation" in entity, f"Entity: {path}"
                 if "location" in entity:
                     assert geojson.loads(json.dumps(entity["location"])).is_valid
                 if "controlledProperty" in entity:
