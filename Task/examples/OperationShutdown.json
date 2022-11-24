@@ -1,28 +1,24 @@
 {
-  "id":"urn:ngsi-ld:Task:9c77a417-05c4-4308-a2d2-6f8e79b9b229",
+  "id":"urn:ngsi-ld:Task:78afa980-163c-4496-b5b5-444092876e91",
   "type":"Task",
   "name":"Operation Shutdown in Building C @ Farm WeLASER Arganda del Rey",
   "goal":"Shutdown in Building C @ Farm WeLASER Arganda del Rey",
   "taskType":"Operation",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:Building:04ea9f36-9651-4df0-918a-6586a558a3b1",
+  "hasWorkingArea":"urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
   "workingAreaType":"Building C",
-  "plannedBeginTime":"2022-11-08T17:36:09Z",
-  "plannedEndTime":"2022-11-08T17:46:09Z",
+  "plannedBeginTime":"2022-11-24T20:10:11Z",
+  "plannedEndTime":"2022-11-24T20:20:11Z",
   "plannedSpeed":0.55,
   "plannedLocation":{
     "type":"Point",
     "coordinates":[
-      40.31320641281282,
-      -3.48264606287599
+      -3.48264606287599,
+      40.31320641281282
     ]
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":{
-    "type":"Point",
-    "coordinates":[]
-  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

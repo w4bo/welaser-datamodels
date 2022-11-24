@@ -1,5 +1,5 @@
 {
-  "id":"urn:ngsi-ld:Task:d5ea2683-eb22-4a7a-9dbe-df68b55825e7",
+  "id":"urn:ngsi-ld:Task:f546a41a-c298-4679-aa08-7ba188590492",
   "type":"Task",
   "name":"Action MoveTo in Gate @ Farm WeLASER Arganda del Rey",
   "goal":"MoveTo in Gate @ Farm WeLASER Arganda del Rey",
@@ -19,10 +19,6 @@
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":{
-    "type":"Point",
-    "coordinates":[]
-  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

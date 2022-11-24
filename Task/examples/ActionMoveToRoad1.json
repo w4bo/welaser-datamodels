@@ -1,11 +1,11 @@
 {
-  "id":"urn:ngsi-ld:Task:7ef709f6-f4f8-49bd-ac41-4f5d1dd36838",
+  "id":"urn:ngsi-ld:Task:f7f13360-8fc6-40d0-a909-11d69e450a66",
   "type":"Task",
   "name":"Action MoveTo in Road M @ Farm WeLASER Arganda del Rey",
   "goal":"MoveTo in Road M @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:RoadSegment:ee7213a6-a835-464d-a85f-78a97acdd4f3",
+  "hasWorkingArea":"urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
   "workingAreaType":"RoadSegment",
   "plannedBeginTime":[],
   "plannedEndTime":[],
@@ -13,16 +13,12 @@
   "plannedLocation":{
     "type":"Point",
     "coordinates":[
-      40.31322012198602,
-      -3.4825030714273453
+      -3.4825030714273453,
+      40.31322012198602
     ]
   },
   "hasPlannedTaskChildren":[],
   "hasExecutedTaskChildren":[],
-  "actualLocation":{
-    "type":"Point",
-    "coordinates":[]
-  },
   "actualBeginTime":"",
   "actualEndTime":"",
   "status":"planned",

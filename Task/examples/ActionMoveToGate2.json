@@ -1,20 +1,20 @@
 {
-  "id":"urn:ngsi-ld:Task:a099d5a2-a427-46b6-9d6e-eecc7536b8af",
+  "id":"urn:ngsi-ld:Task:b32ea2a6-89cb-44d8-8210-92612ac3cdf5",
   "type":"Task",
-  "name":"Action MoveTo Return in Road OF @ Farm WeLASER Arganda del Rey",
-  "goal":"MoveTo Return in Road OF @ Farm WeLASER Arganda del Rey",
+  "name":"Action MoveTo in Gate @ Farm WeLASER Arganda del Rey",
+  "goal":"MoveTo in Gate @ Farm WeLASER Arganda del Rey",
   "taskType":"Action",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":"urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73",
-  "workingAreaType":"RoadSegment",
+  "hasWorkingArea":"Gate",
+  "workingAreaType":"gate",
   "plannedBeginTime":[],
   "plannedEndTime":[],
   "plannedSpeed":0.55,
   "plannedLocation":{
     "type":"Point",
     "coordinates":[
-      -3.480754941701889,
-      40.3126691844176
+      -3.480855718557119,
+      40.312527218705824
     ]
   },
   "hasPlannedTaskChildren":[],
