@@ -1,32 +1,32 @@
 {
   "id":"urn:ngsi-ld:AgriParcel:04486193-afd7-44f8-a32e-fee883dde8f8",
   "type":"AgriParcel",
-  "dateCreated":"2022-11-04T15:07:50Z",
+  "dateCreated":"2022-11-23T13:57:55Z",
   "name":"Field 2 beetroot",
-  "dateModified":"2022-11-04T15:07:50Z",
+  "dateModified":"2022-11-23T13:57:55Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
       [
         [
-          40.31272568448646,
-          -3.480791822075844
+          -3.480791822075844,
+          40.31272568448646
         ],
         [
-          40.312606548539435,
-          -3.480633571743965
+          -3.480633571743965,
+          40.312606548539435
         ],
         [
-          40.31272619579907,
-          -3.480471968650818
+          -3.480471968650818,
+          40.31272619579907
         ],
         [
-          40.31283766185878,
-          -3.480626195669174
+          -3.480626195669174,
+          40.31283766185878
         ],
         [
-          40.31272568448646,
-          -3.480791822075844
+          -3.480791822075844,
+          40.31272568448646
         ]
       ]
     ]
@@ -41,20 +41,22 @@
     }
   ],
   "seeAlso":[],
-  "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "belongsTo":[
+    "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055"
+  ],
   "ownedBy":"",
-  "hasAgriCrop":"",
+  "hasAgriCrop":[],
   "headlandWidth":4,
   "gateLocation":{
     "type":"MultiPoint",
     "coordinates":[
       [
-        40.312672,
-        -3.480785
+        -3.480785,
+        40.312672
       ],
       [
-        40.312645,
-        -3.480753
+        -3.480753,
+        40.312645
       ]
     ]
   },
@@ -62,6 +64,6 @@
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",
-  "hasAgriSoil":[],
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:dd02ca63-2281-40dd-8646-296dd8f8a70a",
   "hasDevice":[]
 }
