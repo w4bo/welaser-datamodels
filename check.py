@@ -3,6 +3,8 @@ import json
 import os
 import re
 
+names = {}
+
 for root, dirs, files in os.walk("."):
     for file in sorted(filter(lambda f: f.endswith('.json'), files)):
         path = os.path.join(root, file)
