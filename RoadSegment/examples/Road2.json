@@ -5,32 +5,32 @@
   "category":[
     "oneway"
   ],
-  "roadMaterial": "dirt",
-  "refRoad": [],
-  "totalLaneNumber": 2,
-  "maximumAllowedSpeed": 40,
-  "minimumAllowedSpeed": 10,
-  "length": 173.52888466738304,
-  "startPoint": {
-    "type": "Point",
-    "coordinates": [
+  "roadMaterial":"dirt",
+  "refRoad":[],
+  "totalLaneNumber":2,
+  "maximumAllowedSpeed":40,
+  "minimumAllowedSpeed":10,
+  "length":173.52888466738304,
+  "startPoint":{
+    "type":"Point",
+    "coordinates":[
       -3.4820279851555824,
       40.3132617936471
     ]
   },
-  "endPoint": {
-    "type": "Point",
-    "coordinates": [
+  "endPoint":{
+    "type":"Point",
+    "coordinates":[
       -3.480754941701889,
       40.3126691844176
     ]
   },
-  "allowedVehicleType": [
+  "allowedVehicleType":[
     "agriculturalVehicle"
   ],
-  "location": {
-    "type": "LineString",
-    "coordinates": [
+  "location":{
+    "type":"LineString",
+    "coordinates":[
       [
         -3.4820279851555824,
         40.3132617936471
@@ -81,6 +81,6 @@
       ]
     ]
   },
-  "dateCreated":"2022-10-06T12:26:14Z",
-  "dateModified":"2022-10-06T12:26:14Z"
+  "dateCreated":"2022-11-23T13:57:58Z",
+  "dateModified":"2022-11-23T13:57:58Z"
 }
