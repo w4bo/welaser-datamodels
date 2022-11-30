@@ -1,3 +1,30 @@
+## [1.0.8](https://github.com/w4bo/welaser-datamodels/compare/1.0.7...1.0.8) (2022-11-30)
+
+
+### Bug Fixes
+
+* **datamodels:** Merge pull request [#27](https://github.com/w4bo/welaser-datamodels/issues/27) from w4bo/feature-fixtasks ([d7ad0ed](https://github.com/w4bo/welaser-datamodels/commit/d7ad0ed33b3733dc8b774f6c404186b2f6c84524))
+
+
+### General maintenance
+
+* **release:** 1.0.1 [skip ci] ([c7ee085](https://github.com/w4bo/welaser-datamodels/commit/c7ee085ff3c535887bf2b35014a9b0c93b8d49c9)), closes [#16](https://github.com/w4bo/welaser-datamodels/issues/16) [#21](https://github.com/w4bo/welaser-datamodels/issues/21) [#13](https://github.com/w4bo/welaser-datamodels/issues/13) [#23](https://github.com/w4bo/welaser-datamodels/issues/23) [#13](https://github.com/w4bo/welaser-datamodels/issues/13) [#16](https://github.com/w4bo/welaser-datamodels/issues/16) [#21](https://github.com/w4bo/welaser-datamodels/issues/21) [#23](https://github.com/w4bo/welaser-datamodels/issues/23) [#22](https://github.com/w4bo/welaser-datamodels/issues/22)
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.1.0 ([#11](https://github.com/w4bo/welaser-datamodels/issues/11)) ([122bb3d](https://github.com/w4bo/welaser-datamodels/commit/122bb3d9920a9b295998eb1625e005c92c4cdd26))
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.23.4 ([#8](https://github.com/w4bo/welaser-datamodels/issues/8)) ([69cc0e0](https://github.com/w4bo/welaser-datamodels/commit/69cc0e0006089fa23be8e2876160f789ee653e09))
+* **deps:** update dependency numpy to v1.23.5 ([2e292cd](https://github.com/w4bo/welaser-datamodels/commit/2e292cd4aa6a54e43cf8af9c63add54aa247b8f9))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.13 ([#22](https://github.com/w4bo/welaser-datamodels/issues/22)) ([89b8743](https://github.com/w4bo/welaser-datamodels/commit/89b87436119d368b7f5d76be8962adc5521dcccc))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.15 ([88cbb03](https://github.com/w4bo/welaser-datamodels/commit/88cbb03917c9973e822b4c13bc738859ca237013))
+* **deps:** update node.js to 16.18 ([8d0a33d](https://github.com/w4bo/welaser-datamodels/commit/8d0a33df633a09c8b85632629ccc887e351f561d))
+* **deps:** update node.js to v18 ([3e73431](https://github.com/w4bo/welaser-datamodels/commit/3e73431c476c92948c39b621a3e3ecbb713d87ca))
+
 ## [1.0.1](https://github.com/luisemmi/welaser-datamodels-update/compare/1.0.0...1.0.1) (2022-10-19)
 
 
