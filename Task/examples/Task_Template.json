@@ -13,7 +13,8 @@
     "plannedLocation": {
         "type": "Point",
         "coordinates": [
-
+            0,
+            0
         ]
     },
     "hasPlannedTaskChildren": [
@@ -25,6 +26,8 @@
     "actualLocation": {
         "type": "Point",
         "coordinates": [
+            0,
+            0
         ]
     },
     "actualBeginTime": "",

@@ -1,54 +1,32 @@
 {
-  "id":"urn:ngsi-ld:Task:c6c6f2ed-056b-44a9-94b6-ff093564334f",
+  "id":"urn:ngsi-ld:Task:c08de7bf-0c14-42eb-a4e1-df0e2286328d",
   "type":"Task",
-  "goal":"Automatically weeding an Field",
+  "name":"Operation GoToWareHouse in Building C @ Farm WeLASER Arganda del Rey",
+  "goal":"GoToWareHouse in Building C @ Farm WeLASER Arganda del Rey",
   "taskType":"Operation",
-  "name":"GoTo Building 1 - WareHouse",
   "hasAgriRobot":"carob-123",
-  "hasWorkingArea":[
-    "urn:ngsi-ld:Building:f50729f9-0bac-42e6-9ee9-366b3eedba5e"
-  ],
-  "workingAreaType":[
-    "Building C"
-  ],
-  "plannedBeginTime":"2022-09-29T09:52:31Z",
-  "plannedEndTime":"2022-09-29T10:08:31Z",
+  "hasWorkingArea":"urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
+  "workingAreaType":"Building C",
+  "plannedBeginTime":"2022-11-24T19:54:11Z",
+  "plannedEndTime":"2022-11-24T20:10:11Z",
   "plannedSpeed":0.55,
-  "plannedLocation":[
-    [
-      [
-        40.31326409453562,
-        -3.4828088432550426
-      ],
-      [
-        40.31311044614164,
-        -3.482774645090103
-      ],
-      [
-        40.31315007263277,
-        -3.48248228430748
-      ],
-      [
-        40.31330142004943,
-        -3.4825171530246735
-      ],
-      [
-        40.31326409453562,
-        -3.4828088432550426
-      ]
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.48264606287599,
+      40.31320641281282
     ]
-  ],
+  },
   "hasPlannedTaskChildren":[
-    "urn:ngsi-ld:Task:645d4c77-fe83-4878-83ec-431a1a2df1b3",
-    "urn:ngsi-ld:Task:1b6b127f-1f5c-429c-804d-e3812af5730e",
-    "urn:ngsi-ld:Task:d51e7585-d981-4b59-973e-5ca21d5c790e",
-    "urn:ngsi-ld:Task:16f0d9a5-4713-4b30-87cd-a37f2b849009",
-    "urn:ngsi-ld:Task:5c37be15-4a64-40bd-b13b-5af5b94827a9"
+    "urn:ngsi-ld:Task:f0016cdb-701f-4809-b5da-48847d8eb0b4",
+    "urn:ngsi-ld:Task:a099d5a2-a427-46b6-9d6e-eecc7536b8af",
+    "urn:ngsi-ld:Task:46a31bf5-c66b-4d5b-bfe3-12f2ebe5b81a",
+    "urn:ngsi-ld:Task:a3c4c346-1ef1-4511-95a2-4bebff3317bc",
+    "urn:ngsi-ld:Task:30266d5e-c734-475a-a361-3e663e603785"
   ],
   "hasExecutedTaskChildren":[],
-
-  "actualBeginTime":"2012-04-13T10:52:00Z",
-  "actualEndTime":"2012-04-13T10:57:00Z",
+  "actualBeginTime":"",
+  "actualEndTime":"",
   "status":"planned",
   "result":[],
   "event":""
