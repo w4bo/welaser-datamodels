@@ -1,39 +1,39 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:76875a84-18fe-4b20-b24b-21a44cbeaf2e",
+  "id":"urn:ngsi-ld:AgriParcel:ctu15",
   "type":"AgriParcel",
-  "dateCreated":"2022-11-30T12:02:08Z",
-  "name":"Field 5 wheat",
-  "dateModified":"2022-11-30T12:02:08Z",
+  "dateCreated":"2022-11-30T12:02:11Z",
+  "name":"Field 10 maiz",
+  "dateModified":"2022-11-30T12:02:11Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
       [
         [
-          -3.4812860190868378,
-          40.31228902209183
+          -3.48139107276,
+          40.3128798018
         ],
         [
-          -3.481096923351288,
-          40.312215392557405
+          -3.48146139393,
+          40.3127477173
         ],
         [
-          -3.4809996932744975,
-          40.31235344786859
+          -3.4813518895,
+          40.3127045655
         ],
         [
-          -3.4811921417713165,
-          40.3124250319929
+          -3.4812720281,
+          40.3128419898
         ],
         [
-          -3.4812860190868378,
-          40.31228902209183
+          -3.48139107276,
+          40.3128798018
         ]
       ]
     ]
   },
-  "area":312.0,
-  "description":"AgriParcel 5",
-  "category":"wheat",
+  "area":173.91,
+  "description":"AgriParcel 10",
+  "category":"maiz",
   "relatedSource":[
     {
       "application":"",
@@ -51,16 +51,16 @@
     "type":"MultiPoint",
     "coordinates":[
       [
-        -3.480871,
-        40.312532
+        -3.4814234103365607,
+        40.312898877829156
       ],
       [
-        -3.4808404371142383,
-        40.312522437411644
+        -3.481374901186342,
+        40.31289050288669
       ]
     ]
   },
-  "bearing":153,
+  "bearing":157,
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",

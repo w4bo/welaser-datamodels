@@ -1,9 +1,9 @@
 {
   "id":"urn:ngsi-ld:AgriParcel:384d274d-171e-43c2-b351-d29465837270",
   "type":"AgriParcel",
-  "dateCreated":"2022-11-23T13:57:55Z",
+  "dateCreated":"2022-11-30T12:02:08Z",
   "name":"Field 3 beetroot",
-  "dateModified":"2022-11-23T13:57:55Z",
+  "dateModified":"2022-11-30T12:02:08Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
@@ -64,6 +64,6 @@
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",
-  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:dd02ca63-2281-40dd-8646-296dd8f8a70a",
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:ca7e0eef-b21d-4279-8f45-adadd9100494",
   "hasDevice":[]
 }
