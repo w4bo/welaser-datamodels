@@ -10,13 +10,27 @@
     ],
     "serviceProvided": [
         "weeding",
+        "state",
         "heartbeat",
-        "current-operation"
+        "engine",
+        "battery",
+        "armed",
+        "automotion",
+        "rtk",
+        "fuel",
+        "emergency"
     ],
     "status": [
-        "off",
+        "on",
+        "idle",
         1653309595,
-        "GoTo Field"
+        "off",
+        50,
+        "off",
+        "off",
+        "off",
+        80,
+        "No emergency"
     ],
     "hasTask": "",
     "hitch": 123,
