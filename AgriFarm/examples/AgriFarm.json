@@ -1,8 +1,8 @@
 {
   "id":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "type":"AgriFarm",
-  "dateCreated":"2022-11-30T12:02:03Z",
-  "dateModified":"2022-11-30T12:02:03Z",
+  "dateCreated":"2022-12-12T13:57:49Z",
+  "dateModified":"2022-12-12T13:57:49Z",
   "name":"Farm WeLASER Arganda del Rey",
   "description":"Area of action",
   "relatedSource":[
@@ -150,7 +150,7 @@
     ]
   },
   "contactPoint":{
-    "email":"ruth.",
+    "email":"ruth.cordova@csic.es",
     "telephone":"+34918711900"
   },
   "ownedBy":"",
