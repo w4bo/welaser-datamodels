@@ -15,12 +15,10 @@
         {
             "id": "urn:ngsi-ld:Device:thermometer3",
             "controlledProperty": [
-                "Temperature",
-                "Humidity"
+                "Temperature (C)"
             ],
             "value": [
-                1,
-                2
+                17
             ]
         },
         {
@@ -35,21 +33,19 @@
         {
             "id": "urn:ngsi-ld:Device:thermometer3",
             "controlledProperty": [
-                "Temperature",
-                "Humidity"
+                "Temperature (C)"
             ],
             "value": [
-                1,
-                2
+                18
             ]
         },
         {
             "id": "urn:ngsi-ld:Device:thermometer3",
             "controlledProperty": [
-                "Temperature"
+                "Temperature (C)"
             ],
             "value": [
-                1
+                19
             ]
         }
     ]
