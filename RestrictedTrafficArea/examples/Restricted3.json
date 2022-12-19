@@ -4,13 +4,6 @@
   "category":"onlyPedestrian",
   "description":"Restricted Area",
   "location":{
-    "type":"Point",
-    "coordinates":[
-      -3.4829583764076233,
-      40.31317001369695
-    ]
-  },
-  "landLocation":{
     "type":"Polygon",
     "coordinates":[
       [
@@ -37,6 +30,33 @@
       ]
     ]
   },
+  "landLocation":{
+    "type":"Polygon",
+    "coordinates":[
+      [
+        [
+          100,
+          0
+        ],
+        [
+          101,
+          0
+        ],
+        [
+          101,
+          1
+        ],
+        [
+          100,
+          1
+        ],
+        [
+          100,
+          0
+        ]
+      ]
+    ]
+  },
   "name":"Parking",
   "notAllowedVehicleType":[
     "anyVehicle"
@@ -44,6 +64,6 @@
   "regulation":"",
   "source":"",
   "validityEndDate":"",
-  "dateCreated":"2022-12-12T13:58:00Z",
-  "dateModified":"2022-12-12T13:58:00Z"
+  "dateCreated":"2022-12-19T15:28:52Z",
+  "dateModified":"2022-12-19T15:28:52Z"
 }
