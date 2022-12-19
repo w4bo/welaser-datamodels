@@ -15,7 +15,7 @@
         {
             "id": "urn:ngsi-ld:Device:thermometer3",
             "controlledProperty": [
-                "Temperature (C)"
+                "Temperature - C"
             ],
             "value": [
                 17
@@ -33,7 +33,7 @@
         {
             "id": "urn:ngsi-ld:Device:thermometer3",
             "controlledProperty": [
-                "Temperature (C)"
+                "Temperature - C"
             ],
             "value": [
                 18
@@ -42,7 +42,7 @@
         {
             "id": "urn:ngsi-ld:Device:thermometer3",
             "controlledProperty": [
-                "Temperature (C)"
+                "Temperature - C"
             ],
             "value": [
                 19
