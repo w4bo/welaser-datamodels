@@ -4,13 +4,6 @@
   "category":"onlyPedestrian",
   "description":"Restricted Area",
   "location":{
-    "type":"Point",
-    "coordinates":[
-      -3.481767475605011,
-      40.31279982477656
-    ]
-  },
-  "landLocation":{
     "type":"Polygon",
     "coordinates":[
       [
@@ -88,6 +81,6 @@
   "regulation":"",
   "source":"",
   "validityEndDate":"",
-  "dateCreated":"2022-11-23T13:57:57Z",
-  "dateModified":"2022-11-23T13:57:57Z"
+  "dateCreated":"2022-12-19T15:41:43Z",
+  "dateModified":"2022-12-19T15:41:43Z"
 }

@@ -1,0 +1,36 @@
+{
+  "id":"urn:ngsi-ld:AgriCrop:b03f5a55-8fee-4d64-90d7-794005c24291",
+  "type":"AgriCrop",
+  "dateCreated":"2022-12-19T15:41:32Z",
+  "dateModified":"2022-12-19T15:41:32Z",
+  "name":"wheat",
+  "alternateName":"",
+  "agroVocConcept":[],
+  "seeAlso":[],
+  "description":"Spring wheat",
+  "relatedSource":[],
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:07793366-22f1-4ad6-942a-bd7fd5f428bb",
+  "hasAgriFertiliser":[],
+  "hasAgriPest":[],
+  "plantingFrom":[
+    {
+      "dateRange":"-09-28/-10-12",
+      "description":"Best Season"
+    },
+    {
+      "dateRange":"-10-11/-10-18",
+      "description":"Season OK"
+    }
+  ],
+  "harvestingInterval":[
+    {
+      "dateRange":"-03-21/-04-01",
+      "description":"Best Season"
+    },
+    {
+      "dateRange":"-04-02/-04-15",
+      "description":"Season OK"
+    }
+  ],
+  "wateringFrequency":"daily"
+}

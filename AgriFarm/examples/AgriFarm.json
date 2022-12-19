@@ -1,8 +1,8 @@
 {
   "id":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "type":"AgriFarm",
-  "dateCreated":"2022-11-23T13:57:45Z",
-  "dateModified":"2022-11-23T13:57:45Z",
+  "dateCreated":"2022-12-19T15:41:32Z",
+  "dateModified":"2022-12-19T15:41:32Z",
   "name":"Farm WeLASER Arganda del Rey",
   "description":"Area of action",
   "relatedSource":[
@@ -169,7 +169,8 @@
     "urn:ngsi-ld:AgriParcel:9b194447-c996-416a-bd50-8217204c1edb",
     "urn:ngsi-ld:AgriParcel:f34d578b-73bd-4168-b5c7-ddcc5f9dd276",
     "urn:ngsi-ld:AgriParcel:76f6ee82-76d0-492a-9ed3-f167ef1c1493",
-    "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac"
+    "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac",
+    "urn:ngsi-ld:AgriParcel:ctu15"
   ],
   "hasRestrictedTrafficArea":[
     "urn:ngsi-ld:RestrictedTrafficArea:92dfe118-c698-408f-b688-e99a8d37970b",
