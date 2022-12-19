@@ -25,7 +25,7 @@ for root, dirs, files in os.walk("."):
                     assert not key.startswith(" ") and not key.endswith(" "), {"id": entity["id"], key: value}
                     assert not str(value).startswith(" ") and not str(value).endswith(" "), {"id": entity["id"], key: value}
                     # Attributes cannot contain brackets
-                    assert not regexp.search(str(value)), {"id": entity["id"], key: value}
+                    assert not regexp.search(str(value)), "The entity contains invalid characters: " + str({"id": entity["id"], key: value})
                     # Any location attribute must be a valid GeoJSON
                     if "location" in key.lower():
                         assert geojson.loads(json.dumps(entity[key])).is_valid, {"id": entity["id"], key: value}

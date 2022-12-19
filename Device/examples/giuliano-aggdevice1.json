@@ -1,0 +1,52 @@
+{
+    "id": "urn:ngsi-ld:Device:your-id-here",
+    "type": "Device",
+    "name": "your-name-here",
+    "areaServed": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            -3.48043486,
+            40.3130826
+        ]
+    },
+    "timestamp": 1670860250,
+    "value": [
+        {
+            "id": "urn:ngsi-ld:Device:thermometer3",
+            "controlledProperty": [
+                "Temperature - C"
+            ],
+            "value": [
+                17
+            ]
+        },
+        {
+            "id": "urn:ngsi-ld:Device:co2-1",
+            "controlledProperty": [
+                "CO2"
+            ],
+            "value": [
+                -1
+            ]
+        },
+        {
+            "id": "urn:ngsi-ld:Device:thermometer3",
+            "controlledProperty": [
+                "Temperature - C"
+            ],
+            "value": [
+                18
+            ]
+        },
+        {
+            "id": "urn:ngsi-ld:Device:thermometer3",
+            "controlledProperty": [
+                "Temperature - C"
+            ],
+            "value": [
+                19
+            ]
+        }
+    ]
+}
