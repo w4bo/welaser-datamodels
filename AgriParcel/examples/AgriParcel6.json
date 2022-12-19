@@ -1,9 +1,9 @@
 {
   "id":"urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
   "type":"AgriParcel",
-  "dateCreated":"2022-12-19T15:28:51Z",
+  "dateCreated":"2022-12-19T15:41:41Z",
   "name":"Field 6 wheat",
-  "dateModified":"2022-12-19T15:28:51Z",
+  "dateModified":"2022-12-19T15:41:41Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
@@ -43,7 +43,7 @@
   "seeAlso":[],
   "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
-  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:872e2f7d-0e66-42e0-8cd0-3a1bbac84589",
+  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:b03f5a55-8fee-4d64-90d7-794005c24291",
   "headlandWidth":4,
   "gateLocation":{
     "type":"MultiPoint",
@@ -62,6 +62,6 @@
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",
-  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:e3510a43-62eb-4775-a7d2-57b0c8ee142d",
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:07793366-22f1-4ad6-942a-bd7fd5f428bb",
   "hasDevice":[]
 }

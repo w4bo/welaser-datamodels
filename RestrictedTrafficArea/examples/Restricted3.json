@@ -30,33 +30,6 @@
       ]
     ]
   },
-  "landLocation":{
-    "type":"Polygon",
-    "coordinates":[
-      [
-        [
-          100,
-          0
-        ],
-        [
-          101,
-          0
-        ],
-        [
-          101,
-          1
-        ],
-        [
-          100,
-          1
-        ],
-        [
-          100,
-          0
-        ]
-      ]
-    ]
-  },
   "name":"Parking",
   "notAllowedVehicleType":[
     "anyVehicle"
@@ -64,6 +37,6 @@
   "regulation":"",
   "source":"",
   "validityEndDate":"",
-  "dateCreated":"2022-12-19T15:28:52Z",
-  "dateModified":"2022-12-19T15:28:52Z"
+  "dateCreated":"2022-12-19T15:41:43Z",
+  "dateModified":"2022-12-19T15:41:43Z"
 }
