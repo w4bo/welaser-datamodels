@@ -1,9 +1,9 @@
 {
-  "id":"urn:ngsi-ld:AgriSoil:07793366-22f1-4ad6-942a-bd7fd5f428bb",
+  "id":"urn:ngsi-ld:AgriSoil:e70951c4-3325-4a83-8d64-69fd88c88ea9",
   "type":"AgriSoil",
-  "dateCreated":"2022-12-19T15:41:32Z",
-  "dateModified":"2022-12-19T15:41:32Z",
-  "name":"Loam(Limosos)",
+  "dateCreated":"2022-12-19T16:22:44Z",
+  "dateModified":"2022-12-19T16:22:44Z",
+  "name":"Loam",
   "alternateName":"Heavy soil",
   "agroVocConcept":[],
   "seeAlso":[],

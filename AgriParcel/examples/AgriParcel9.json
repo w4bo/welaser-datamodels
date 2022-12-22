@@ -1,9 +1,9 @@
 {
   "id":"urn:ngsi-ld:AgriParcel:f34d578b-73bd-4168-b5c7-ddcc5f9dd276",
   "type":"AgriParcel",
-  "dateCreated":"2022-12-19T15:41:41Z",
+  "dateCreated":"2022-12-19T16:22:51Z",
   "name":"Field 9 corn",
-  "dateModified":"2022-12-19T15:41:41Z",
+  "dateModified":"2022-12-19T16:22:51Z",
   "location":{
     "type":"Polygon",
     "coordinates":[
@@ -43,7 +43,7 @@
   "seeAlso":[],
   "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
-  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:e3f828d0-5f73-4d75-aec8-53e7215440df",
+  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:2d191ede-478a-4d37-82c9-5aa281193e38",
   "headlandWidth":4,
   "gateLocation":{
     "type":"MultiPoint",
@@ -62,6 +62,6 @@
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",
-  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:07793366-22f1-4ad6-942a-bd7fd5f428bb",
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:e70951c4-3325-4a83-8d64-69fd88c88ea9",
   "hasDevice":[]
 }
