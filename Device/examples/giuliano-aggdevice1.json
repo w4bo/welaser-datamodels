@@ -1,51 +1,96 @@
 {
     "id": "urn:ngsi-ld:Device:your-id-here",
     "type": "Device",
-    "name": "your-name-here",
     "areaServed": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+    "domain": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
     "location": {
-        "type": "Point",
         "coordinates": [
             -3.48043486,
             40.3130826
-        ]
+        ],
+        "type": "Point"
     },
-    "timestamp": 1670860250,
+    "name": "your-name-here",
+    "timestamp": 1671469959535,
     "value": [
         {
-            "id": "urn:ngsi-ld:Device:thermometer3",
-            "controlledProperty": [
-                "Temperature - C"
-            ],
-            "value": [
-                17
-            ]
-        },
-        {
-            "id": "urn:ngsi-ld:Device:co2-1",
+            "name": "CO2 h00",
             "controlledProperty": [
                 "CO2"
             ],
+            "deviceid": "urn:ngsi-ld:Device:CO20",
             "value": [
-                -1
+                6
             ]
         },
         {
-            "id": "urn:ngsi-ld:Device:thermometer3",
+            "name": "CO2 h10",
             "controlledProperty": [
-                "Temperature - C"
+                "CO2"
             ],
+            "deviceid": "urn:ngsi-ld:Device:CO21",
+            "value": [
+                6
+            ]
+        },
+        {
+            "name": "CO2 h20",
+            "controlledProperty": [
+                "CO2"
+            ],
+            "deviceid": "urn:ngsi-ld:Device:CO22",
+            "value": [
+                11
+            ]
+        },
+        {
+            "name": "CO2 h30",
+            "controlledProperty": [
+                "CO2"
+            ],
+            "deviceid": "urn:ngsi-ld:Device:CO23",
+            "value": [
+                10
+            ]
+        },
+        {
+            "name": "Temperature h00",
+            "controlledProperty": [
+                "Temperature"
+            ],
+            "deviceid": "urn:ngsi-ld:Device:Temperature0",
             "value": [
                 18
             ]
         },
         {
-            "id": "urn:ngsi-ld:Device:thermometer3",
+            "name": "Temperature h10",
             "controlledProperty": [
-                "Temperature - C"
+                "Temperature"
             ],
+            "deviceid": "urn:ngsi-ld:Device:Temperature1",
             "value": [
-                19
+                21
+            ]
+        },
+        {
+            "name": "Temperature h20",
+            "controlledProperty": [
+                "Temperature"
+            ],
+            "deviceid": "urn:ngsi-ld:Device:Temperature2",
+            "value": [
+                1
+            ]
+        },
+        {
+            "name": "Temperature h30",
+            "controlledProperty": [
+                "Temperature"
+            ],
+            "deviceid": "urn:ngsi-ld:Device:Temperature3",
+            "value": [
+                11
             ]
         }
     ]
