@@ -1,0 +1,27 @@
+{
+  "id":"urn:ngsi-ld:Task:23f1ab4c-fa44-46cd-ba34-5ce0bd4c78b6",
+  "type":"Task",
+  "name":"Action MoveTo in Field6 @ Farm Arganda del Rey 2023-01-12T13:55",
+  "goal":"MoveTo in Field6 @ Farm Arganda del Rey",
+  "taskType":"Action",
+  "hasAgriRobot":"carob-123",
+  "hasWorkingArea":"urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
+  "workingAreaType":"AgriParcel",
+  "plannedBeginTime":"2023-01-12T13:55:41+01:00",
+  "plannedEndTime":"2023-01-12T13:55:41+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.4820279851555824,
+      40.3132617936471
+    ]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
