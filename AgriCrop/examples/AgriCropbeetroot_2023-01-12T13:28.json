@@ -1,0 +1,36 @@
+{
+  "id":"urn:ngsi-ld:AgriCrop:16c6a303-509e-4f3c-bd0d-5de58e85f98c",
+  "type":"AgriCrop",
+  "dateCreated":"2023-01-12T13:28:26+01:00",
+  "dateModified":"2023-01-12T13:28:26+01:00",
+  "name":"beetroot 2023-01-12T13:28",
+  "alternateName":"",
+  "agroVocConcept":[],
+  "seeAlso":[],
+  "description":"Spring beetroot",
+  "relatedSource":[],
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:70131196-ebfd-4e47-bdbf-cbe4233febc8",
+  "hasAgriFertiliser":[],
+  "hasAgriPest":[],
+  "plantingFrom":[
+    {
+      "dateRange":"-04-15/-05-04",
+      "description":"Best Season"
+    },
+    {
+      "dateRange":"-05-05/-05-12",
+      "description":"Season OK"
+    }
+  ],
+  "harvestingInterval":[
+    {
+      "dateRange":"-08-26/-09-05",
+      "description":"Best Season"
+    },
+    {
+      "dateRange":"-09-05/-09-16",
+      "description":"Season OK"
+    }
+  ],
+  "wateringFrequency":"daily"
+}
