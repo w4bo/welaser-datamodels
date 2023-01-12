@@ -1,0 +1,13 @@
+{
+  "id":"urn:ngsi-ld:AgriSoil:70131196-ebfd-4e47-bdbf-cbe4233febc8",
+  "type":"AgriSoil",
+  "dateCreated":"2023-01-12T13:28:26+01:00",
+  "dateModified":"2023-01-12T13:28:26+01:00",
+  "name":"Loam 2023-01-12T13:28",
+  "alternateName":"Heavy soil",
+  "agroVocConcept":[],
+  "seeAlso":[],
+  "description":"Fine grained, poor draining soil. Particle size between 0.002 and 0.05 mm. They have intermediate properties between sandy soils and clay soils.",
+  "relatedSource":[],
+  "hasAgriProductType":[]
+}
