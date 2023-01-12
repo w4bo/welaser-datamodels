@@ -1,13 +1,16 @@
-Entity: AgriSoil  
+Entity: AgriSoil
 ================
 
 Global description: **This entity contains a harmonised description of a generic soil. This entity is primarily associated with the agricultural vertical and related IoT applications.**  
 
-This is taken from https://github.com/smart-data-models/dataModel.Agrifood/blob/master/AgriSoil/doc/spec.md
+version: 0.0.2  
+
 
 ## List of properties  
 
-<sup><sub>[*] If there is not a type in an attribute is because it could have several types or different formats/patterns</sub></sup>  
+
+[*] If there is not a type in an attribute is because it could have several types or different formats/patterns
+
 - `agroVocConcept[string]`: Reference to the agrovoc term associated with this item  . Model: [http://schema.org/URL](http://schema.org/URL)
 - `alternateName[string]`: An alternative name for this item  
 - `dataProvider[string]`: A sequence of characters identifying the provider of the harmonised data entity.  
@@ -22,3 +25,13 @@ This is taken from https://github.com/smart-data-models/dataModel.Agrifood/blob/
 - `seeAlso[*]`: list of uri pointing to additional resources about the item  
 - `source[string]`: A sequence of characters giving the original source of the entity data as a URL. Recommended to be the fully qualified domain name of the source provider, or the URL to the source object.  
 - `type[string]`: NGSI Entity Type: It has to be AgriSoil  
+
+
+
+Required properties  
+- `id`  
+- `name`  
+- `type`  
+
+
+This entity is primarily associated with the agricultural vertical and related IoT applications.  
