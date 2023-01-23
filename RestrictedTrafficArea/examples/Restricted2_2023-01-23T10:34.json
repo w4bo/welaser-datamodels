@@ -34,13 +34,13 @@
       ]
     ]
   },
-  "name":"RestrictedB 2023-01-12T13:28",
+  "name":"RestrictedB 2023-01-23T10:34",
   "notAllowedVehicleType":[
     "anyVehicle"
   ],
   "regulation":"",
   "source":"",
   "validityEndDate":"",
-  "dateCreated":"2023-01-12T13:28:28+01:00",
-  "dateModified":"2023-01-12T13:28:28+01:00"
+  "dateCreated":"2023-01-23T10:34:53+01:00",
+  "dateModified":"2023-01-23T10:34:53+01:00"
 }

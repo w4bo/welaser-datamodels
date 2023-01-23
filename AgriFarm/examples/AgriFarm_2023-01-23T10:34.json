@@ -1,9 +1,9 @@
 {
   "id":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "type":"AgriFarm",
-  "dateCreated":"2023-01-12T13:28:26+01:00",
-  "dateModified":"2023-01-12T13:28:26+01:00",
-  "name":"Farm Arganda del Rey 2023-01-12T13:28",
+  "dateCreated":"2023-01-23T10:34:50+01:00",
+  "dateModified":"2023-01-23T10:34:50+01:00",
+  "name":"Farm Arganda del Rey 2023-01-23T10:34",
   "description":"Area of action",
   "relatedSource":[
     {
@@ -152,7 +152,8 @@
     "urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
     "urn:ngsi-ld:Building:592c65d3-4bab-4cd8-9113-5bb821599d00",
     "urn:ngsi-ld:Building:693ef177-41e5-4e29-b485-db68a0735b07",
-    "urn:ngsi-ld:Building:dd4cf746-d622-4284-a722-538550266002"
+    "urn:ngsi-ld:Building:dd4cf746-d622-4284-a722-538550266002",
+    "urn:ngsi-ld:Building:44f0a460-30ec-431c-bb22-e30d73312c52"
   ],
   "hasAgriParcel":[
     "urn:ngsi-ld:AgriParcel:ce109a14-09a3-48a9-90e1-e76b61dee0fd",
@@ -164,7 +165,7 @@
     "urn:ngsi-ld:AgriParcel:f34d578b-73bd-4168-b5c7-ddcc5f9dd276",
     "urn:ngsi-ld:AgriParcel:76f6ee82-76d0-492a-9ed3-f167ef1c1493",
     "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac",
-    "urn:ngsi-ld:AgriParcel:c816acd0-4af7-48d3-8d5b-9340c1f2ff2e"
+    "urn:ngsi-ld:AgriParcel:91f492de-7ffc-46f1-b78b-46b6d222ce8b"
   ],
   "hasRestrictedTrafficArea":[
     "urn:ngsi-ld:RestrictedTrafficArea:92dfe118-c698-408f-b688-e99a8d37970b",
@@ -173,6 +174,8 @@
   ],
   "hasRoadSegment":[
     "urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
-    "urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73"
+    "urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73",
+    "urn:ngsi-ld:RoadSegment:0d18de86-56a2-4754-9590-13a948cff951",
+    "urn:ngsi-ld:RoadSegment:09116bb9-ac18-42e7-8f17-0874e8d8c9a1"
   ]
 }

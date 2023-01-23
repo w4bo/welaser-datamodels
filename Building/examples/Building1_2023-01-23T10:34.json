@@ -1,10 +1,10 @@
 {
   "id":"urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
   "type":"Building",
-  "dateCreated":"2023-01-12T13:28:26+01:00",
-  "dateModified":"2023-01-12T13:28:26+01:00",
+  "dateCreated":"2023-01-23T10:34:51+01:00",
+  "dateModified":"2023-01-23T10:34:51+01:00",
   "source":"",
-  "name":"BuildingC 2023-01-12T13:28",
+  "name":"BuildingC 2023-01-23T10:34",
   "dataProvider":"OperatorA",
   "category":[
     "office"
@@ -37,14 +37,8 @@
     ]
   },
   "address":{
-    "addressLocality":[
-      " La Poveda",
-      " Arganda del Rey"
-    ],
-    "streetAddress":[
-      "Nave Edif-C",
-      " Acceso CSIC"
-    ]
+    "addressLocality":" La Poveda  Arganda del Rey",
+    "streetAddress":"Nave Edif-C  Acceso CSIC"
   },
   "owner":[],
   "occupier":[],

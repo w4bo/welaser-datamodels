@@ -1,0 +1,46 @@
+{
+  "id":"urn:ngsi-ld:RoadSegment:09116bb9-ac18-42e7-8f17-0874e8d8c9a1",
+  "type":"RoadSegment",
+  "name":"Road3 2023-01-23T10:34",
+  "category":[
+    "oneway"
+  ],
+  "roadMaterial":"dirt",
+  "refRoad":[],
+  "totalLaneNumber":2,
+  "maximumAllowedSpeed":40,
+  "minimumAllowedSpeed":10,
+  "length":11.205760886457735,
+  "startPoint":{
+    "type":"Point",
+    "coordinates":[
+      -3.4813589161970526,
+      40.313003337832214
+    ]
+  },
+  "endPoint":{
+    "type":"Point",
+    "coordinates":[
+      -3.4813807599219047,
+      40.31290486064154
+    ]
+  },
+  "allowedVehicleType":[
+    "agriculturalVehicle"
+  ],
+  "location":{
+    "type":"LineString",
+    "coordinates":[
+      [
+        -3.4813589161970526,
+        40.313003337832214
+      ],
+      [
+        -3.4813807599219047,
+        40.31290486064154
+      ]
+    ]
+  },
+  "dateCreated":"2023-01-23T10:34:53+01:00",
+  "dateModified":"2023-01-23T10:34:53+01:00"
+}

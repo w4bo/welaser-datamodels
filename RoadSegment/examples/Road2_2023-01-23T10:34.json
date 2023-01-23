@@ -1,7 +1,7 @@
 {
   "id":"urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73",
   "type":"RoadSegment",
-  "name":"Road1 2023-01-12T13:28",
+  "name":"Road1 2023-01-23T10:34",
   "category":[
     "oneway"
   ],
@@ -81,6 +81,6 @@
       ]
     ]
   },
-  "dateCreated":"2023-01-12T13:28:28+01:00",
-  "dateModified":"2023-01-12T13:28:28+01:00"
+  "dateCreated":"2023-01-23T10:34:53+01:00",
+  "dateModified":"2023-01-23T10:34:53+01:00"
 }

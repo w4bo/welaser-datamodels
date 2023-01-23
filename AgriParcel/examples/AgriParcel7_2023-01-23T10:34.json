@@ -1,38 +1,38 @@
 {
-  "id":"urn:ngsi-ld:AgriParcel:035795a1-4fc6-4cc3-8b5b-538625eb6461",
+  "id":"urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac",
   "type":"AgriParcel",
-  "dateCreated":"2023-01-12T13:28:26+01:00",
-  "name":"Field6 2023-01-12T13:28",
-  "dateModified":"2023-01-12T13:28:26+01:00",
+  "dateCreated":"2023-01-23T10:34:51+01:00",
+  "name":"Field7 2023-01-23T10:34",
+  "dateModified":"2023-01-23T10:34:51+01:00",
   "location":{
     "type":"Polygon",
     "coordinates":[
       [
         [
-          -3.4813909605145454,
-          40.312120031964675
+          -3.480959460139274,
+          40.31234271024339
         ],
         [
-          -3.481208235025406,
-          40.31204205604483
+          -3.480740189552307,
+          40.312260388393526
         ],
         [
-          -3.481096923351288,
-          40.312215392557405
+          -3.4806235134601593,
+          40.31244190538259
         ],
         [
-          -3.4812860190868378,
-          40.312288510775886
+          -3.4808367490768433,
+          40.312521670440375
         ],
         [
-          -3.4813909605145454,
-          40.312120031964675
+          -3.480959460139274,
+          40.31234271024339
         ]
       ]
     ]
   },
-  "area":376.72,
-  "description":"wheat",
+  "area":459.11,
+  "description":"corn",
   "category":"arable",
   "relatedSource":[
     {
@@ -43,7 +43,7 @@
   "seeAlso":[],
   "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
-  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:6210aa94-abb0-42fa-a597-74c75ea77a7b",
+  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:9d6b1dd5-6d56-4f90-bebf-f5a76653d1d8",
   "headlandWidth":4,
   "gateLocation":{
     "type":"MultiPoint",
@@ -58,10 +58,10 @@
       ]
     ]
   },
-  "bearing":153,
+  "bearing":154,
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",
-  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:70131196-ebfd-4e47-bdbf-cbe4233febc8",
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:1627a275-ca8a-41e2-b361-f6cd3f61e0be",
   "hasDevice":[]
 }
