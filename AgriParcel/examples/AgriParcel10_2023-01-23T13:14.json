@@ -1,9 +1,9 @@
 {
   "id":"urn:ngsi-ld:AgriParcel:91f492de-7ffc-46f1-b78b-46b6d222ce8b",
   "type":"AgriParcel",
-  "dateCreated":"2023-01-23T10:34:53+01:00",
-  "name":"Field10 2023-01-23T10:34",
-  "dateModified":"2023-01-23T10:34:53+01:00",
+  "dateCreated":"2023-01-23T13:15:01+01:00",
+  "name":"Field10 2023-01-23T13:14",
+  "dateModified":"2023-01-23T13:15:01+01:00",
   "location":{
     "type":"Polygon",
     "coordinates":[
@@ -43,18 +43,18 @@
   "seeAlso":[],
   "belongsTo":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":"",
-  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:0113443a-3562-43af-89f8-9e38b37110a3",
+  "hasAgriCrop":"urn:ngsi-ld:AgriCrop:c7432980-50c0-43e3-ad69-016d953dfb1a",
   "headlandWidth":4,
   "gateLocation":{
     "type":"MultiPoint",
     "coordinates":[
       [
-        -3.481359436092447,
-        40.31288729947079
+        -3.4814459418283548,
+        40.312718770662656
       ],
       [
-        -3.481396050033794,
-        40.312895661206056
+        -3.481479692318345,
+        40.312734463090095
       ]
     ]
   },
@@ -62,6 +62,6 @@
   "interRowDistance":0.75,
   "cropStatus":"",
   "lastPlantedAt":"",
-  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:1627a275-ca8a-41e2-b361-f6cd3f61e0be",
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:2ba860e1-644b-4c82-88d7-55b7749bb948",
   "hasDevice":[]
 }
