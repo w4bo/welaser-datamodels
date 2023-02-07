@@ -1,25 +1,25 @@
 {
-  "id":"urn:ngsi-ld:Task:1bc73a4e-6d10-4f25-a94f-45adb5411feb",
+  "id":"urn:ngsi-ld:Task:7c7ea399-ad2d-4ea8-bcdc-7b9f64f1ac09",
   "type":"Task",
-  "name":"Action FollowPath Road3 @ Farm Arganda del Rey 2023-01-30T16:10",
-  "goal":"FollowPath Road3 @ Farm Arganda del Rey",
+  "name":"Action MoveTo Return Road3 @ Farm Arganda del Rey 2023-02-01T19:02",
+  "goal":"MoveTo Return Road3 @ Farm Arganda del Rey",
   "taskType":"Action",
   "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
   "hasWorkingArea":"urn:ngsi-ld:RoadSegment:09116bb9-ac18-42e7-8f17-0874e8d8c9a1",
   "workingAreaType":"RoadSegment",
-  "plannedBeginTime":"2023-01-30T16:10:28+01:00",
-  "plannedEndTime":"2023-01-30T16:10:28+01:00",
+  "plannedBeginTime":"2023-02-01T19:02:24+01:00",
+  "plannedEndTime":"2023-02-01T19:02:24+01:00",
   "plannedSpeed":0.55,
   "plannedLocation":{
-    "type":"LineString",
+    "type":"MultiPoint",
     "coordinates":[
-      [
-        -3.481450331226796,
-        40.31262050405948
-      ],
       [
         -3.4814587464579745,
         40.3126984266342
+      ],
+      [
+        -3.481454867934454,
+        40.31266251308858
       ]
     ]
   },

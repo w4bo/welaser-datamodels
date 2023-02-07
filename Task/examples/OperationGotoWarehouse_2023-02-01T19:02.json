@@ -1,0 +1,33 @@
+{
+  "id":"urn:ngsi-ld:Task:25217df6-808c-44f5-bca7-caeeed6d805e",
+  "type":"Task",
+  "name":"Operation GoToWareHouse BuildingT @ Farm Arganda del Rey 2023-02-01T19:02",
+  "goal":"GoToWareHouse BuildingT @ Farm Arganda del Rey",
+  "taskType":"Operation",
+  "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
+  "hasWorkingArea":"urn:ngsi-ld:Building:44f0a460-30ec-431c-bb22-e30d73312c52",
+  "workingAreaType":"Building",
+  "plannedBeginTime":"2023-02-01T19:02:24+01:00",
+  "plannedEndTime":"2023-02-01T19:02:24+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.4815074325968602,
+      40.31249000173675
+    ]
+  },
+  "hasPlannedTaskChildren":[
+    "urn:ngsi-ld:Task:d7114bf3-a4a9-4fb9-bc82-ecd702b1e123",
+    "urn:ngsi-ld:Task:7c7ea399-ad2d-4ea8-bcdc-7b9f64f1ac09",
+    "urn:ngsi-ld:Task:c95df2f1-58c3-4142-9eda-e675673c305c",
+    "urn:ngsi-ld:Task:1f798110-40e0-40f4-add1-a62bf8a012b2",
+    "urn:ngsi-ld:Task:560161b9-dde2-442a-817d-c69c5e7e59d5"
+  ],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}

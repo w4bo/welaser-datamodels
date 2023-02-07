@@ -1,0 +1,33 @@
+{
+  "id":"urn:ngsi-ld:Task:d7114bf3-a4a9-4fb9-bc82-ecd702b1e123",
+  "type":"Task",
+  "name":"Action MoveTo Return Gate3 @ Farm Arganda del Rey 2023-02-01T19:02",
+  "goal":"MoveTo Return Gate3 @ Farm Arganda del Rey",
+  "taskType":"Action",
+  "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
+  "hasWorkingArea":"urn:ngsi-ld:AgriParcel:91f492de-7ffc-46f1-b78b-46b6d222ce8b",
+  "workingAreaType":"AgriParcel",
+  "plannedBeginTime":"2023-02-01T19:02:24+01:00",
+  "plannedEndTime":"2023-02-01T19:02:24+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"MultiPoint",
+    "coordinates":[
+      [
+        -3.48146281707335,
+        40.312726616876375
+      ],
+      [
+        -3.4814872548177354,
+        40.31269581694873
+      ]
+    ]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}

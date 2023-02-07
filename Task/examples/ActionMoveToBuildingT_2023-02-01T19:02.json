@@ -1,0 +1,27 @@
+{
+  "id":"urn:ngsi-ld:Task:0ab3bd14-9c42-4a9f-9027-c11b5156f66f",
+  "type":"Task",
+  "name":"Action MoveTo BuildingT @ Farm Arganda del Rey 2023-02-01T19:02",
+  "goal":"MoveTo BuildingT @ Farm Arganda del Rey",
+  "taskType":"Action",
+  "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
+  "hasWorkingArea":"urn:ngsi-ld:Building:44f0a460-30ec-431c-bb22-e30d73312c52",
+  "workingAreaType":"Building",
+  "plannedBeginTime":"2023-02-01T19:02:24+01:00",
+  "plannedEndTime":"2023-02-01T19:02:24+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.4815074326023736,
+      40.3124900021925
+    ]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
