@@ -1,0 +1,28 @@
+{
+  "id":"urn:ngsi-ld:Task:3e31fd77-acfc-48ab-ad41-801c0f37c18e",
+  "type":"Task",
+  "name":"Operation Shutdown in BuildingT3 @ Farm Arganda del Rey 2023-02-16T09:40",
+  "goal":"Shutdown in BuildingT3 @ Farm Arganda del Rey",
+  "taskType":"Operation",
+  "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
+  "hasWorkingArea":"urn:ngsi-ld:Building:a02d2f0d-3c17-43e2-8255-a739401a4375",
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "workingAreaType":"Building",
+  "plannedBeginTime":"2023-02-16T09:40:32+01:00",
+  "plannedEndTime":"2023-02-16T09:40:32+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.4806216282708475,
+      40.31250695723609
+    ]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
