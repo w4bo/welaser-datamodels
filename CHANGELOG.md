@@ -1,3 +1,17 @@
+## [1.0.10](https://github.com/w4bo/welaser-datamodels/compare/1.0.9...1.0.10) (2023-02-20)
+
+
+### Bug Fixes
+
+* **agrirobot:** add the infos attribute ([a781394](https://github.com/w4bo/welaser-datamodels/commit/a7813946252d038d8527540d5b11e421a77ad39f))
+
+
+### Dependency updates
+
+* **deps:** update dependency geojson to v3 ([f356594](https://github.com/w4bo/welaser-datamodels/commit/f356594156e141b753e4aa37c574c391ebb31130))
+* **deps:** update dependency numpy to v1.24.2 ([c7f9cf5](https://github.com/w4bo/welaser-datamodels/commit/c7f9cf5c7811fbe081b303baba3df785ec2fdd97))
+* **deps:** update node.js to 18.14 ([53309d5](https://github.com/w4bo/welaser-datamodels/commit/53309d525aef47f15b4c707c9a7bdaa3ef12d4cb))
+
 ## [1.0.9](https://github.com/w4bo/welaser-datamodels/compare/1.0.8...1.0.9) (2023-01-26)
 
 
