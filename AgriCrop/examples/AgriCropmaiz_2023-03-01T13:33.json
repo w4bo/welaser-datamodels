@@ -1,0 +1,36 @@
+{
+  "id":"urn:ngsi-ld:AgriCrop:0e3a19b8-a0db-4825-a7d8-4778ef276955",
+  "type":"AgriCrop",
+  "dateCreated":"2023-03-01T13:33:36+01:00",
+  "dateModified":"2023-03-01T13:33:36+01:00",
+  "name":"maiz 2023-03-01T13:33",
+  "alternateName":"",
+  "agroVocConcept":[],
+  "seeAlso":[],
+  "description":"Spring wheat",
+  "relatedSource":[],
+  "hasAgriSoil":"urn:ngsi-ld:AgriSoil:a0ea44f5-aa3f-4f28-a082-9dc0c0217938",
+  "hasAgriFertiliser":[],
+  "hasAgriPest":[],
+  "plantingFrom":[
+    {
+      "dateRange":"-04-15/-05-04",
+      "description":"Best Season"
+    },
+    {
+      "dateRange":"-05-05/-05-12",
+      "description":"Season OK"
+    }
+  ],
+  "harvestingInterval":[
+    {
+      "dateRange":"-07-25/-08-25",
+      "description":"Best Season"
+    },
+    {
+      "dateRange":"-08-26/-09-06",
+      "description":"Season OK"
+    }
+  ],
+  "wateringFrequency":"daily"
+}
