@@ -5,7 +5,7 @@
     "hasTask":"",
     "refRobotModel": "robotmodel:carob",
     "category": "TBD",
-    "name": "carob-123",
+    "name": "carob-welaser",
     "serviceProvided": [
         "weeding",
         "state",
