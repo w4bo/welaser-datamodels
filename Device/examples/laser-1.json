@@ -1,0 +1,18 @@
+{
+    "type": "Device",
+    "name": "Laser",
+    "id": "urn:ngsi-ld:Device:Laser-123",
+    "areaServed": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+    
+    "location": {
+        "type": "Point",
+        "coordinates": [
+            -3.4811060428619385,
+            40.3125834371521
+        ]
+    },
+    "timestamp": 1678265001000,
+    
+    "controlledProperty": [ "detectedWeeds", "treatedWeeds", "killedWeeds" ],
+    "value": [ 123, 100, 80 ] 
+}
