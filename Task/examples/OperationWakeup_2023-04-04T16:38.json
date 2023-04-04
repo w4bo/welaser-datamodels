@@ -1,0 +1,28 @@
+{
+  "id":"urn:ngsi-ld:Task:8cda895f-bafc-4172-ba29-8e8607566985",
+  "type":"Task",
+  "name":"Operation Wakeup in Field10 @ Farm Arganda del Rey 2023-04-04T16:38",
+  "goal":"Wakeup in Field10 @ Farm Arganda del Rey",
+  "taskType":"Operation",
+  "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
+  "hasWorkingArea":"urn:ngsi-ld:AgriParcel:91f492de-7ffc-46f1-b78b-46b6d222ce8b",
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "workingAreaType":"AgriParcel",
+  "plannedBeginTime":"2023-04-04T16:38:02+01:00",
+  "plannedEndTime":"2023-04-04T16:38:02+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.4813653009611216,
+      40.31272239080469
+    ]
+  },
+  "hasPlannedTaskChildren":[],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
