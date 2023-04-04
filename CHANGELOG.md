@@ -1,3 +1,38 @@
+## [1.0.10](https://github.com/w4bo/welaser-datamodels/compare/1.0.9...1.0.10) (2023-02-20)
+
+
+### Bug Fixes
+
+* **agrirobot:** add the infos attribute ([a781394](https://github.com/w4bo/welaser-datamodels/commit/a7813946252d038d8527540d5b11e421a77ad39f))
+
+
+### Dependency updates
+
+* **deps:** update dependency geojson to v3 ([f356594](https://github.com/w4bo/welaser-datamodels/commit/f356594156e141b753e4aa37c574c391ebb31130))
+* **deps:** update dependency numpy to v1.24.2 ([c7f9cf5](https://github.com/w4bo/welaser-datamodels/commit/c7f9cf5c7811fbe081b303baba3df785ec2fdd97))
+* **deps:** update node.js to 18.14 ([53309d5](https://github.com/w4bo/welaser-datamodels/commit/53309d525aef47f15b4c707c9a7bdaa3ef12d4cb))
+
+## [1.0.9](https://github.com/w4bo/welaser-datamodels/compare/1.0.8...1.0.9) (2023-01-26)
+
+
+### Bug Fixes
+
+* **RestrictedTrafficArea:** Merge pull request [#42](https://github.com/w4bo/welaser-datamodels/issues/42) from luisemmi/master ([f54e30f](https://github.com/w4bo/welaser-datamodels/commit/f54e30f4585ef80451b0c97a703a0bb6688c6c57))
+
+
+### Build and continuous integration
+
+* **deps:** update actions/checkout action to v3.2.0 ([e5519a5](https://github.com/w4bo/welaser-datamodels/commit/e5519a52fdf0b77a38e722d8f57bb0cfbb5473d0))
+* **deps:** update actions/checkout action to v3.3.0 ([2e44f51](https://github.com/w4bo/welaser-datamodels/commit/2e44f51c2427bf4e4526bdbf7babaac32ee4e30a))
+
+
+### Dependency updates
+
+* **deps:** update dependency numpy to v1.24.0 ([ed9c602](https://github.com/w4bo/welaser-datamodels/commit/ed9c602510a3a02d001d706a49e066f30bbfee35))
+* **deps:** update dependency numpy to v1.24.1 ([f3fddb4](https://github.com/w4bo/welaser-datamodels/commit/f3fddb4fa0243f3cd05c56086869633435fb3c59))
+* **deps:** update dependency semantic-release-preconfigured-conventional-commits to v1.1.16 ([387bfef](https://github.com/w4bo/welaser-datamodels/commit/387bfef02f0cf9bbcad5a62ceeb18e9416a2c5f3))
+* **deps:** update node.js to 18.13 ([eba7c8e](https://github.com/w4bo/welaser-datamodels/commit/eba7c8e8051e4f026d1ea8080ce7d39ac27417cf))
+
 ## [1.0.8](https://github.com/w4bo/welaser-datamodels/compare/1.0.7...1.0.8) (2022-11-30)
 
 

@@ -2,7 +2,6 @@
     "id": "urn:ngsi-ld:Device:your-id-here",
     "type": "Device",
     "areaServed": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
-    "domain": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
     "location": {
         "coordinates": [
             -3.48043486,
@@ -18,7 +17,7 @@
             "controlledProperty": [
                 "CO2"
             ],
-            "deviceid": "urn:ngsi-ld:Device:CO20",
+            "id": "urn:ngsi-ld:Device:CO20",
             "value": [
                 6
             ]
@@ -28,7 +27,7 @@
             "controlledProperty": [
                 "CO2"
             ],
-            "deviceid": "urn:ngsi-ld:Device:CO21",
+            "id": "urn:ngsi-ld:Device:CO21",
             "value": [
                 6
             ]
@@ -38,7 +37,7 @@
             "controlledProperty": [
                 "CO2"
             ],
-            "deviceid": "urn:ngsi-ld:Device:CO22",
+            "id": "urn:ngsi-ld:Device:CO22",
             "value": [
                 11
             ]
@@ -48,7 +47,7 @@
             "controlledProperty": [
                 "CO2"
             ],
-            "deviceid": "urn:ngsi-ld:Device:CO23",
+            "id": "urn:ngsi-ld:Device:CO23",
             "value": [
                 10
             ]
@@ -58,7 +57,7 @@
             "controlledProperty": [
                 "Temperature"
             ],
-            "deviceid": "urn:ngsi-ld:Device:Temperature0",
+            "id": "urn:ngsi-ld:Device:Temperature0",
             "value": [
                 18
             ]
@@ -68,7 +67,7 @@
             "controlledProperty": [
                 "Temperature"
             ],
-            "deviceid": "urn:ngsi-ld:Device:Temperature1",
+            "id": "urn:ngsi-ld:Device:Temperature1",
             "value": [
                 21
             ]
@@ -78,7 +77,7 @@
             "controlledProperty": [
                 "Temperature"
             ],
-            "deviceid": "urn:ngsi-ld:Device:Temperature2",
+            "id": "urn:ngsi-ld:Device:Temperature2",
             "value": [
                 1
             ]
@@ -88,7 +87,7 @@
             "controlledProperty": [
                 "Temperature"
             ],
-            "deviceid": "urn:ngsi-ld:Device:Temperature3",
+            "id": "urn:ngsi-ld:Device:Temperature3",
             "value": [
                 11
             ]
