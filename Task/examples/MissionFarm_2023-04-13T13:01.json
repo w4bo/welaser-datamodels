@@ -1,0 +1,43 @@
+{
+  "id":"urn:ngsi-ld:Task:863e5f5b-48a6-45b0-81c5-819d4bab326c",
+  "type":"Task",
+  "name":"Mission weeding with HPL from Field1 to Field1 2023-04-13T13:00",
+  "goal":"Automatically weeding Field1 to Field1",
+  "taskType":"Mission",
+  "hasAgriRobot":"urn:ngsi-ld:AgriRobot:9ea60389-9246-4dda-a083-3e3bcb444131",
+  "hasWorkingArea":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "workingAreaType":"AgriFarm",
+  "plannedBeginTime":"2023-04-13T12:58:57+01:00",
+  "plannedEndTime":"2023-04-13T13:00:54+01:00",
+  "plannedSpeed":0.55,
+  "plannedLocation":{
+    "type":"LineString",
+    "coordinates":[
+      [
+        -3.4807810169554316,
+        40.31268835857628
+      ],
+      [
+        -3.4807630279743287,
+        40.31269997805571
+      ],
+      [
+        -3.4806146186711895,
+        40.312795842383004
+      ]
+    ]
+  },
+  "hasPlannedTaskChildren":[
+    "urn:ngsi-ld:Task:dbba6432-c535-4fb8-8b9a-294e58d7b074",
+    "urn:ngsi-ld:Task:fe3db506-969c-48f3-8837-1b33cf3f9611",
+    "urn:ngsi-ld:Task:e9d8ceae-ced8-47e0-abf6-c98d722cbaf7",
+    "urn:ngsi-ld:Task:5bdf874e-0b2f-4403-b1ca-1578eac50c8f"
+  ],
+  "hasExecutedTaskChildren":[],
+  "actualBeginTime":"",
+  "actualEndTime":"",
+  "status":"planned",
+  "result":[],
+  "event":""
+}
