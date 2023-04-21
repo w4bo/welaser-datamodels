@@ -1,7 +1,7 @@
 {
   "id":"urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73",
   "type":"RoadSegment",
-  "name":"Road1 2023-03-01T13:33",
+  "name":"Road1 2023-04-21T10:08",
   "category":[
     "oneway"
   ],
@@ -57,6 +57,7 @@
       ]
     ]
   },
-  "dateCreated":"2023-03-01T13:33:39+01:00",
-  "dateModified":"2023-03-01T13:33:39+01:00"
+  "dateCreated":"2023-04-21T10:08:27+01:00",
+  "dateModified":"2023-04-21T10:08:27+01:00",
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055"
 }

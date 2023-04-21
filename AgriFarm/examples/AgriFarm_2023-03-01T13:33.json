@@ -1,30 +1,20 @@
 {
-  "id": "urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
-  "type": "AgriFarm",
-  "dateCreated": "2023-04-14T15:33:36+01:00",
-  "dateModified": "2023-04-14T15:33:36+01:00",
-  "name": "Farm Arganda del Rey 2023-04-14T15:33:36+01:00",
-  "description": "Area of action",
-  "relatedSource": [
+  "id":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "type":"AgriFarm",
+  "dateCreated":"2023-04-21T10:08:22+01:00",
+  "dateModified":"2023-04-21T10:08:22+01:00",
+  "name":"Farm Cuenca del Henares 2023-04-21T10:08",
+  "description":"Area of action",
+  "relatedSource":[
     {
-      "application": "",
-      "applicationEntityId": ""
+      "application":"",
+      "applicationEntityId":""
     }
   ],
-  "seeAlso": [],
-  "landLocation": {
-    "type": "Point",
-    "coordinates": [
-      -3.482,
-      40.3128
-    ],
-    "properties": {
-      "zoom": 17
-    }
-  },
-  "location": {
-    "type": "Polygon",
-    "coordinates": [
+  "seeAlso":[],
+  "location":{
+    "type":"Polygon",
+    "coordinates":[
       [
         [
           -3.480884358286807,
@@ -141,17 +131,27 @@
       ]
     ]
   },
-  "address": {
-    "addressLocality": " Arganda del Rey  Cuenca del Henares",
-    "addressCountry": "ES",
-    "streetAddress": "Calle Monte Hacho  La Poveda"
+  "landLocation":{
+    "type":"Point",
+    "coordinates":[
+      -3.4815928191532106,
+      40.312833810246005
+    ],
+    "properties": {
+      "zoom": 17
+    }
   },
-  "contactPoint": {
-    "email": "luis.emmi@car.upm-csic.es",
-    "telephone": "+34918711900"
+  "address":{
+    "addressLocality":" Cuenca del Henares  Community of Madrid",
+    "addressCountry":"ES",
+    "streetAddress":"La Poveda  Arganda del Rey"
   },
-  "ownedBy": "",
-  "hasBuilding": [
+  "contactPoint":{
+    "email":"d",
+    "telephone":"+34918711900"
+  },
+  "ownedBy":"",
+  "hasBuilding":[
     "urn:ngsi-ld:Building:91b41dea-6def-44cc-b140-3c112b781233",
     "urn:ngsi-ld:Building:592c65d3-4bab-4cd8-9113-5bb821599d00",
     "urn:ngsi-ld:Building:693ef177-41e5-4e29-b485-db68a0735b07",
@@ -160,7 +160,7 @@
     "urn:ngsi-ld:Building:30440c91-95e1-4c49-b9e9-1051fff2b55d",
     "urn:ngsi-ld:Building:a02d2f0d-3c17-43e2-8255-a739401a4375"
   ],
-  "hasAgriParcel": [
+  "hasAgriParcel":[
     "urn:ngsi-ld:AgriParcel:ce109a14-09a3-48a9-90e1-e76b61dee0fd",
     "urn:ngsi-ld:AgriParcel:04486193-afd7-44f8-a32e-fee883dde8f8",
     "urn:ngsi-ld:AgriParcel:384d274d-171e-43c2-b351-d29465837270",
@@ -172,12 +172,13 @@
     "urn:ngsi-ld:AgriParcel:e991a05d-9cc6-449c-91f3-5cfd5fa3b3ac",
     "urn:ngsi-ld:AgriParcel:91f492de-7ffc-46f1-b78b-46b6d222ce8b"
   ],
-  "hasRestrictedTrafficArea": [
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
+  "hasRestrictedTrafficArea":[
     "urn:ngsi-ld:RestrictedTrafficArea:92dfe118-c698-408f-b688-e99a8d37970b",
     "urn:ngsi-ld:RestrictedTrafficArea:07788064-5ea2-4cbf-b19f-e93fa064731c",
     "urn:ngsi-ld:RestrictedTrafficArea:0414162e-4575-4ebd-b0e7-a0459a81fa05"
   ],
-  "hasRoadSegment": [
+  "hasRoadSegment":[
     "urn:ngsi-ld:RoadSegment:1211a41e-3084-414a-92b4-c8d0fedda997",
     "urn:ngsi-ld:RoadSegment:c96e6673-382e-47b2-b632-2147446eda73",
     "urn:ngsi-ld:RoadSegment:f61b22fe-6aba-435a-8f7e-3d3a2857b6a4",

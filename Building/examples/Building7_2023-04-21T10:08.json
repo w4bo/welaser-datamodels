@@ -1,10 +1,10 @@
 {
   "id":"urn:ngsi-ld:Building:a02d2f0d-3c17-43e2-8255-a739401a4375",
   "type":"Building",
-  "dateCreated":"2023-03-01T13:33:40+01:00",
-  "dateModified":"2023-03-01T13:33:40+01:00",
+  "dateCreated":"2023-04-21T10:08:28+01:00",
+  "dateModified":"2023-04-21T10:08:28+01:00",
   "source":"",
-  "name":"BuildingT3 2023-03-01T13:33",
+  "name":"BuildingT3 2023-04-21T10:08",
   "dataProvider":"OperatorA",
   "category":[
     "office"
@@ -47,5 +47,6 @@
   "description":"Building T3",
   "mapUrl":"",
   "openingHours":[],
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055",
   "ownedBy":""
 }

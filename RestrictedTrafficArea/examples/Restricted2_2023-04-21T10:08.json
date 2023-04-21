@@ -34,13 +34,14 @@
       ]
     ]
   },
-  "name":"RestrictedB 2023-03-01T13:33",
+  "name":"RestrictedB 2023-04-21T10:08",
   "notAllowedVehicleType":[
     "anyVehicle"
   ],
   "regulation":"",
   "source":"",
   "validityEndDate":"",
-  "dateCreated":"2023-03-01T13:33:39+01:00",
-  "dateModified":"2023-03-01T13:33:39+01:00"
+  "dateCreated":"2023-04-21T10:08:27+01:00",
+  "dateModified":"2023-04-21T10:08:27+01:00",
+  "areaServed":"urn:ngsi-ld:AgriFarm:6991ac61-8db8-4a32-8fef-c462e2369055"
 }
