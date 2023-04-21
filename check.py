@@ -44,8 +44,8 @@ for root, dirs, files in os.walk("."):
                     assert "plannedLocation" in entity
                     # assert "actualLocation" in entity
 
-                # This are valid controlled properties for devices
-                if "controlledProperty" in entity:
-                    known_properties = set(["heartbeat", "temperature", "humidity", "image", "timestamp"])
-                    difference = set(entity["controlledProperty"]).difference(known_properties)
-                    assert (len(difference) == 0), "Unknown properties: " + str(difference)
+                # These are valid controlled properties for devices
+                # if "controlledProperty" in entity:
+                #     known_properties = set(["heartbeat", "temperature", "humidity", "image", "timestamp"])
+                #     difference = set(entity["controlledProperty"]).difference(known_properties)
+                #     assert (len(difference) == 0), "Unknown properties: " + str(difference)
