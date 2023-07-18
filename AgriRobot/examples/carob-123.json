@@ -55,5 +55,6 @@
     "errors": [],
     "warnings": [],
     "infos": [],
+    "supervisor": [],
     "cmd": {}
 }
