@@ -11,11 +11,11 @@ Global description: **This entity contains a harmonised description of a generic
 - `name`: The name of this item.  
 - `brandName`: The brand
 - `modelName`: The name of the model
-- `robotType`: The type of robot (enum: **TBD**)
-- `cargoPayload`: (**TBD**) In kilograms
+- `robotType`: The type of robot (enum: "manipulator", "mobile platform", "wearable robot")
+- `cargoPayload`: In kilograms
 - `height`: The height of the robot model, in meters
 - `width`: The width of the robot model, in meters
 - `length`: The length of the robot model, in meters
-- `fuelType`: The fuel type (enum: **TBD**)
-- `fuelEfficiency`: **TBD**
-- `wheelsType`: The type of robot wheels (enum : **TBD**)
+- `fuelType`: The fuel type (enum: "electricity", "gasoline", "diesel", "fuel cell")
+- `fuelEfficiency`: in percentage
+- `locomotionType`: The type of locomotion/actuation (enum: for the mobile platform: "wheeled", "legged", "biped", "crawler", "tracked", "humanoid" ; for manipulator: "Cartesian", "cylindrical", "spherical", "pendular", "articulated", "SCARA", "parallel")
